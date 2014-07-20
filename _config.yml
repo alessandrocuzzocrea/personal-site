@@ -10,3 +10,12 @@ github_username:  omar
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
+
+# Japanisu
+#defaults:
+#  -
+#    scope:
+#      path: "ja" # an empty string here means all files in the project
+#      type: "post"
+#    values:
+#      permalink: /ja/:year/:month/:day/:title/
