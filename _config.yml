@@ -9,4 +9,4 @@ github_username:  omar
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:year/:month/:day/:title/
