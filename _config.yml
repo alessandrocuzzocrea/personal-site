@@ -11,6 +11,7 @@ github_username:  omar
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
+port: 3000
 # Japanisu
 #defaults:
 #  -
