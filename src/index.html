@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="">
+
 <head>
     <meta charset="utf-8">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
@@ -12,13 +13,14 @@
     <link href="main.css" rel="stylesheet">
     <!-- <script src="js/vendor/modernizr-2.8.3.min.js"></script> -->
 </head>
+
 <body>
     <!-- HEADER & HERO -->
     <section>
         <header class="navbar">
-            <span>LOGO</span>
+            <div>NAVBAR</div>
             <nav class="navbar-menu">
-                <a href="#popup" class="navbar-menu-icon"><img src="menu.svg"/></a>
+                <a href="#popup" class="navbar-menu-icon"><img src="menu.svg" /></a>
                 <ul class="navbar-list">
                     <li>
                         <a href="#">Link1</a>
@@ -38,113 +40,12 @@
                 </ul>
             </nav>
         </header>
-        <div class="hero">
-        	<h1 class="title">ERASE 
-        		<!-- <div class="text-animated-one">EVERYTHING</div> -->
-        		<!-- <div class="text-animated-two">ANYTHING</div> -->
-        		<div class="text-animated-one"></div>
-        		<div class="letter-changer"></div>
-        	</h1>
-        	<img src="eraser.png">
-        	
-        </div>
-        <div class="find-out-more">
-        		<p class="title">Find out more</p>
-        		<img class="freccia" src="http://placehold.it/32x32">
-        	</div>
     </section>
 
-    <!-- FEATURE 1 -->
-    <div class="feature-odd">
-        <div class="bit-1"><h2 class="feature-title">Design better, faster.</h2></div>
-        <div class="bit-2"> <img src="http://placehold.it/200x150"></div>
-        <div class="bit-2"><p>SaaS is a growing collection of Sketch tools, methodically crafted to make you a more efficient and organized designer. Instead of dropping big bucks on a highly-stylized UI Kit that you'll use once, you'll gain unrestricted access to our entire collection of Power Tools for just $5.99 a month. Every time we release a new tool, it's yours.</p></div>
+    <!-- FEATURES -->
+    <div class="container">
+        {% include "card.njk" %}
     </div>
-
-    <!-- FEATURE 2 -->
-    <div class="feature-even">
-        <div class="bit-1"><h2 class="feature-title">Stand Out</h2></div>
-        <div class="bit-2"><img src="http://placehold.it/200x150"></div>
-        <div class="bit-2"><p>A good template can really help you streamline your resume and keep it organized and professional without taking up a lot of your time, allowing you to focus on the actual resume content, as well as the job search. It helps you add a touch of personality, stay structured and consistent, and present your experience and achievements in a chronological, easy-to-read manner.</p></div>
-    </div>
-
-    <!-- FEATURE 3 -->
-    <div class="feature-odd">
-        
-        <div class="bit-1"><h2 class="feature-title">The Only Tool You'll Ever Need</h2></div>
-        <div class="bit-2"><img src="http://placehold.it/200x150"></div>
-        <div class="bit-2"><p>Products are designed in all different shapes and sizes, so we make sure that every component we design can be resized to fit your app. Even charts can be resized without stretching or distortion!</p></div>
-    </div>
-
-    <!-- FEATURE 4 -->
-    <div class="feature-even">
-        <div class="bit-1"><h2 class="feature-title">Powerful platform, unparalleled ecosystem</h2></div>
-        <div class="bit-2"><img src="http://placehold.it/200x150"></div>
-        <div class="bit-2"><p>With absolutely no new hardware to show off, Apple focused on software — the glue that binds together its increasingly powerful and interconnected platforms — during the Worldwide Developers Conference kick-off event Monday. All companies face limits; not even Google has infinite resources. But you can dramatically expand those limits. Building a powerful platform lets you cultivate an ecosystem of developers, partners, users, and other collaborators who contribute to—and may drive—innovation at your company.</p></div>
-    </div>
-
-    <!-- FEATURE 5 -->
-    <div class="feature-odd">
-        <div class="bit-1"><h2 class="feature-title">We are making the world a better place</h2></div>
-        <div class="bit-2"><img src="http://placehold.it/200x150"></div>
-        <div class="bit-2"><p>Our forests are being cut down at an alarming rate. Conserve the trees by conserving paper. Send an e-mail instead of a letter, type directions into your cell phone instead of writing them down and bring your own fabric shopping bags to the store.</p></div>
-    </div>    
-
-    <div class="pricing-container">
-    	<h2 class="pricing-container-title">Simple Pricing</h2>
-    	<!-- INDIE -->
-    	<div class="frame">
-	    	<div class="pricing-container-pricing-box bit-3">
-	    		<div class="pricing-container-trevi-div">
-		    		<div class="most-popular">Most Popular</div>
-		    		<div class="most-popular-item">Indie</div>
-		    		<div class="most-popular-item">$0/Mo</div>
-                    <ul>
-                        <li>Blablabla 1</li>
-                        <li>Blablabla 2</li>
-                        <li>Blablabla 3</li>
-                        <li>Blablabla 4</li>
-                    </ul>
-	    		</div>
-	    	</div>
-	    	<!-- COMPANY -->
-	    	<div class="pricing-container-pricing-box bit-3">
-	    	<div class="pricing-container-trevi-div">
-                <div class="most-popular">Most Popular</div>
-	    		<div class="most-popular-item">Company</div>
-	    		<div class="most-popular-item">$0/Mo</div>
-	    		<ul>
-                    <li>Blablabla 1</li>
-                    <li>Blablabla 2</li>
-                    <li>Blablabla 3</li>
-                    <li>Blablabla 4</li>
-                </ul>
-	    	</div>
-	    	</div>
-	    	
-	    	<!-- ENTERPRISE -->
-	    	<div class="pricing-container-pricing-box bit-3">
-	    	<div class="pricing-container-trevi-div">
-                <div class="most-popular">Most Popular</div>
-	    		<div class="most-popular-item">Enterprise</div>
-	    		<div class="most-popular-item">$0/Mo</div>
-	    		<ul>
-                    <li>Blablabla 1</li>
-                    <li>Blablabla 2</li>
-                    <li>Blablabla 3</li>
-                    <li>Blablabla 4</li>
-                </ul>
-	    	</div>
-	    	</div>
-
-    	</div>
-    	</div>
-
-   <!--  </div>
-	    <div class="frame">
-	     <div class="bit-2">test1</div>
-	     <div class="bit-2">test2</div>    
-	</div> -->
     <footer>
         <!-- <button class="show-popup">Sign Up</button> -->
         <a href="#popup">Sign Up</a>
@@ -154,20 +55,8 @@
         <div>Contact</div>
         <div>©2016 SaaS</div>
     </footer>
-
-    <!-- POPUP -->
-    <div id="popup" class="popup-overlay">
-        <div class="popup">
-            <h2>Here i am</h2>
-            <div class="content">
-                Thank to pop me out of that button, but now i'm done so you can close this window.
-                <!-- <button class="show-popup">OK</button> -->
-                <a href="#">CLOSE</a>
-            </div>
-        </div>
-    </div>
-
     <!-- JS -->
     <!-- <script type="text/javascript" src="main.js"></script> -->
 </body>
+
 </html>

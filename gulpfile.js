@@ -1,11 +1,13 @@
-var gulp        = require('gulp');
+var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
-var sass        = require('gulp-sass');
-var del         = require('del');
+var sass = require('gulp-sass');
+var del = require('del');
+var nunjucksRender = require('gulp-nunjucks-render');
+var data = require('gulp-data');
 
 gulp.task('clean', function() {
-  // You can use multiple globbing patterns as you would with `gulp.src`
-  return del('dist');
+    // You can use multiple globbing patterns as you would with `gulp.src`
+    return del('dist');
 });
 
 // Static Server + watching scss/html files
@@ -25,11 +27,17 @@ gulp.task('serve', ['html', 'sass', 'png', 'svg', 'js'], function() {
     //gulp.watch("src/js/*.js").on('change', browserSync.reload);
 });
 
-gulp.task('html', function(){
+gulp.task('html', function() {
 
     //return gulp.src(['input/folder/**/*'])
-    return gulp.src("src/*.html")
-        .pipe(gulp.dest("dist"))
+    return gulp.src("src/index.html")
+        .pipe(data(function() {
+            return require('./src/data.json')
+        }))
+        .pipe(nunjucksRender({
+            path: 'src/partials'
+        }))
+        .pipe(gulp.dest("dist/"))
         .pipe(browserSync.stream());
 
 });
@@ -60,4 +68,15 @@ gulp.task('js', function() {
         .pipe(browserSync.stream());
 });
 
-gulp.task('default', ['clean','serve']);
+// gulp.task('nunjucks', function() {
+//     // Gets .html and .nunjucks files in pages
+//     return gulp.src('src/index.html')
+//         // Renders template with nunjucks
+//         .pipe(nunjucksRender({
+//             path: 'src/partials'
+//         }))
+//         // output files in app folder
+//         .pipe(gulp.dest('dist/'))
+// });
+
+gulp.task('default', ['clean', 'serve']);

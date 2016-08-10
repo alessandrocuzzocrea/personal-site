@@ -1,14 +1,16 @@
-body{
-	font-family: 'Roboto', sans-serif; 
-	//font-family: "Comic Sans MS", cursive, sans-serif;
+body {
+    font-family: 'Roboto', sans-serif;
+    //font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-.frame {
-   //border: 4px solid black;
-   padding-top: 1rem;
-   padding-bottom: 1rem;
+.container {
+    //width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    /* or inline-flex */
+    //flex-direction: column;
 }
 
-.center-content {
-  text-align: center;
+.feature{
+	width: 300px;
 }
