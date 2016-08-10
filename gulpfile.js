@@ -22,6 +22,8 @@ gulp.task('serve', ['html', 'sass', 'png', 'svg', 'js'], function() {
 
     gulp.watch('src/stylesheets/*.scss', ['sass']);
     gulp.watch('src/*.html', ['html']);
+    gulp.watch('src/partials/*.njk', ['html']);
+    gulp.watch('src/data.json', ['html']);
     gulp.watch('src/javascripts/*.js', ['js']);
     //gulp.watch("src/*.html").on('change', browserSync.reload);
     //gulp.watch("src/js/*.js").on('change', browserSync.reload);

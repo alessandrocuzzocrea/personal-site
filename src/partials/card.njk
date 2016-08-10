@@ -1,10 +1,12 @@
+{% macro card(title='', description='') %}
 <!-- FEATURE 1 -->
     <div class="container">
         <div class="feature">
             <div class="bit-1">
-                <h2 class="feature-title">Design better, faster.</h2></div>
+                <h2 class="feature-title">{{ title }}</h2></div>
             <div class="bit-2"> <img src="http://placehold.it/200x150"></div>
             <div class="bit-2">
-                <p>SaaS is a growing collection of Sketch tools, methodically crafted to make you a more efficient and organized designer. Instead of dropping big bucks on a highly-stylized UI Kit that you'll use once, you'll gain unrestricted access to our entire collection of Power Tools for just $5.99 a month. Every time we release a new tool, it's yours.</p>
+                <p>{{ description }}</p>
             </div>
         </div>
+{% endmacro %}

@@ -15,13 +15,8 @@
 </head>
 
 <body>
-
-{% import "test.njk" as forms %}
-
-{{ forms.label('Username') }}
-{{ forms.field('user') }}
-{{ forms.label('Password') }}
-{{ forms.field('pass', type='password') }}
+    {% import "test.njk" as forms %} 
+    {% import "card.njk" as card %} 
     <!-- HEADER & HERO -->
     <section>
         <header class="navbar">
@@ -48,10 +43,11 @@
             </nav>
         </header>
     </section>
-
     <!-- FEATURES -->
     <div class="container">
-        {% include "card.njk" %}
+        {% for image in images %} 
+            {{ card.card(image.src, image.alt)}} 
+        {% endfor %}
     </div>
     <footer>
         <!-- <button class="show-popup">Sign Up</button> -->
