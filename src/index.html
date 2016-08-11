@@ -19,32 +19,47 @@
     <!-- HEADER & HERO -->
     <section>
         <header class="navbar">
-            <div>NAVBAR</div>
+            <span class="navbar-logo">ALESSANDRO CUZZOCREA</span>
             <nav class="navbar-menu">
-                <a href="#popup" class="navbar-menu-icon">MENU</a>
-                <ul class="navbar-list">
-                    <li>
-                        <a href="#">All</a>
-                    </li>
-                    <li>
-                        <a href="#">Full-stack</a>
-                    </li>
-                    <li>
-                        <a href="#">Web Design</a>
-                    </li>
-                    <li>
-                        <a href="#">Games</a>
-                    </li>
-                    <li>
-                        <a href="#">Experiments</a>
-                    </li>
-                </ul>
+                <!-- <a href="#popup" class="navbar-menu-icon">MENU</a> -->
+                <!-- <ul class="navbar-list"> -->
+                <!-- <li> -->
+                <a href="#">Mail</a>
+                <!-- </li> -->
+                <!-- <li> -->
+                <a href="#">Github</a>
+                <!-- </li> -->
+                <!-- </ul> -->
             </nav>
         </header>
     </section>
-    <!-- FEATURES -->
-    <div class="container">
-        {% for project in projects %} {{ card.card(project)}} {% endfor %}
+
+    <!-- FILTERS -->
+    <div class="filter">
+        <ul class="navbar-list">
+            <li>
+                <a href="#">All</a>
+            </li>
+            <li>
+                <a href="#">Full-stack</a>
+            </li>
+            <li>
+                <a href="#">Web Design</a>
+            </li>
+            <li>
+                <a href="#">Games</a>
+            </li>
+            <li>
+                <a href="#">Experiments</a>
+            </li>
+        </ul>
+    </div>
+    <!-- PROJECTS -->
+    <div class="center">
+        <div class="container">
+
+            {% for project in projects %} {{ card.card(project)}} {% endfor %}
+        </div>
     </div>
     <div class="project-details-panel">
         <a href="#" class="project-details-panel-close-button">X</a>
@@ -55,13 +70,7 @@
         <h1>STUFF</h1>
     </div>
     <footer>
-        <!-- <button class="show-popup">Sign Up</button> -->
-        <a href="#popup">Sign Up</a>
-        <div>Login</div>
-        <div>Help</div>
-        <div>Status</div>
-        <div>Contact</div>
-        <div>©2016 SaaS</div>
+        <div>FOOTER</div>
     </footer>
     <!-- JS -->
     <script type="text/javascript" src="main.js"></script>
