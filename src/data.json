@@ -1,38 +1,45 @@
 {
     "projects": [{
+        "id": "pipper",
         "title": "Pipper",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
         "category": "fullstack",
-        "icons" : ["rails", "angular", "bootstrap"]
+        "icons": ["rails", "angular", "bootstrap"]
     }, {
+        "id": "saas",
         "title": "SaaS",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
         "category": "webdesign",
-        "icons" : []
+        "icons": []
     }, {
+        "id": "tictactoeai",
         "title": "TicTacToe-AI",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
         "category": "experiments",
-        "icons" : []
+        "icons": []
     }, {
+        "id": "softwarerenderer",
         "title": "Software Renderer",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
         "category": "experiments",
-        "icons" : []
+        "icons": []
     }, {
+        "id": "pixelrush",
         "title": "Pixel Rush",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
         "category": "games",
-        "icons" : []
+        "icons": []
     }, {
+        "id": "vanished",
         "title": "Vanished",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
         "category": "games",
-        "icons" : []
+        "icons": []
     }, {
+        "id": "hypermazearcade",
         "title": "Hyper Maze Arcade",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
         "category": "games",
-        "icons" : []
+        "icons": []
     }]
 }

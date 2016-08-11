@@ -12,9 +12,26 @@ body {
     //flex-direction: column;
 }
 
-.feature{
-	width: 300px;
-	background-color: white;
-	margin-right: 10px;
-	margin-bottom: 10px;
+.feature {
+    width: 300px;
+    background-color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.project-details-panel {
+    background-color: red;
+    position: fixed;
+    top: 0px;
+    right: -100px;
+    width: 200px;
+    opacity: 0;
+    transition-duration: .3s, .5s;
+    transition-timing-function: ease-in-out;
+    transition-property: right, opacity, box-shadow;
+}
+
+.show {
+    right: 0px;
+    opacity: 1;
 }
