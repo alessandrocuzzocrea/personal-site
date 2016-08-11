@@ -1,18 +1,38 @@
 {
-    "images": [{
-        "src": "image-oned.png",
-        "alt": "Image one alt text"
+    "projects": [{
+        "title": "Pipper",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
+        "category": "fullstack",
+        "icons" : ["rails", "angular", "bootstrap"]
     }, {
-        "src": "image-two.png",
-        "alt": "Image two alt text"
+        "title": "SaaS",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
+        "category": "webdesign",
+        "icons" : []
     }, {
-        "src": "image-two.png",
-        "alt": "Image two alt text"
+        "title": "TicTacToe-AI",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
+        "category": "experiments",
+        "icons" : []
     }, {
-        "src": "image-two.png",
-        "alt": "Image two alt text"
+        "title": "Software Renderer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
+        "category": "experiments",
+        "icons" : []
     }, {
-        "src": "image-twod.png",
-        "alt": "Image two alt textd"
+        "title": "Pixel Rush",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
+        "category": "games",
+        "icons" : []
+    }, {
+        "title": "Vanished",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
+        "category": "games",
+        "icons" : []
+    }, {
+        "title": "Hyper Maze Arcade",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
+        "category": "games",
+        "icons" : []
     }]
 }

@@ -22,22 +22,22 @@
         <header class="navbar">
             <div>NAVBAR</div>
             <nav class="navbar-menu">
-                <a href="#popup" class="navbar-menu-icon"><img src="menu.svg" /></a>
+                <a href="#popup" class="navbar-menu-icon">MENU</a>
                 <ul class="navbar-list">
                     <li>
-                        <a href="#">Link1</a>
+                        <a href="#">All</a>
                     </li>
                     <li>
-                        <a href="#">Link2</a>
+                        <a href="#">Full-stack</a>
                     </li>
                     <li>
-                        <a href="#">Link3</a>
+                        <a href="#">Web Design</a>
                     </li>
                     <li>
-                        <a href="#">Link4</a>
+                        <a href="#">Games</a>
                     </li>
                     <li>
-                        <a href="#">Link5</a>
+                        <a href="#">Experiments</a>
                     </li>
                 </ul>
             </nav>
@@ -45,8 +45,8 @@
     </section>
     <!-- FEATURES -->
     <div class="container">
-        {% for image in images %} 
-            {{ card.card(image.src, image.alt)}} 
+        {% for project in projects %} 
+            {{ card.card(project)}} 
         {% endfor %}
     </div>
     <footer>
@@ -59,7 +59,7 @@
         <div>©2016 SaaS</div>
     </footer>
     <!-- JS -->
-    <!-- <script type="text/javascript" src="main.js"></script> -->
+    <script type="text/javascript" src="main.js"></script>
 </body>
 
 </html>
