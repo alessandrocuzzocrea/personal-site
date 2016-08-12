@@ -21,6 +21,7 @@ gulp.task('serve', ['html', 'sass', 'assets', 'js'], function() {
     });
 
     gulp.watch('src/stylesheets/*.scss', ['sass']);
+    gulp.watch('src/assets/*.*', ['assets']);
     gulp.watch('src/*.html', ['html']);
     gulp.watch('src/partials/*.njk', ['html']);
     gulp.watch('src/data.json', ['html']);
