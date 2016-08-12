@@ -11,7 +11,7 @@ gulp.task('clean', function() {
 });
 
 // Static Server + watching scss/html files
-gulp.task('serve', ['html', 'sass', 'png', 'svg', 'js'], function() {
+gulp.task('serve', ['html', 'sass', 'assets', 'js'], function() {
 
 
 
@@ -32,7 +32,7 @@ gulp.task('serve', ['html', 'sass', 'png', 'svg', 'js'], function() {
 gulp.task('html', function() {
 
     //return gulp.src(['input/folder/**/*'])
-    return gulp.src("src/index.html")
+    return gulp.src("src/*.html")
         .pipe(data(function() {
             return require('./src/data.json')
         }))
@@ -53,16 +53,18 @@ gulp.task('sass', function() {
 });
 
 gulp.task('png', function() {
-    return gulp.src("src/*.png")
+    return gulp.src("src/assets/*.png")
         .pipe(gulp.dest("dist"))
         .pipe(browserSync.stream());
 });
 
 gulp.task('svg', function() {
-    return gulp.src("src/*.svg")
+    return gulp.src("src/assets/*.svg")
         .pipe(gulp.dest("dist"))
         .pipe(browserSync.stream());
 });
+
+gulp.task('assets', ['png','svg']);
 
 gulp.task('js', function() {
     return gulp.src("src/javascripts/*.js")

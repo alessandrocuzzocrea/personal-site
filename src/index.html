@@ -6,7 +6,7 @@
     <meta content="ie=edge" http-equiv="x-ua-compatible">
     <title></title>
     <meta content="" name="description">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link href="apple-touch-icon.png" rel="apple-touch-icon">
     <!-- Place favicon.ico in the root directory -->
     <!-- <link rel="stylesheet" href="css/normalize.css"> -->
@@ -15,7 +15,6 @@
 </head>
 
 <body>
-    {% import "test.njk" as forms %} {% import "card.njk" as card %}
     <!-- HEADER & HERO -->
     <section>
         <header class="navbar">
@@ -34,8 +33,11 @@
         </header>
     </section>
 
+    <h1>ALESSANDRO CUZZOCREA</h1>
+    <a href="#">Mail</a> <a href="#">Github</a>
+
     <!-- FILTERS -->
-    <div class="filter">
+    <!-- <div class="filter">
         <ul class="navbar-list">
             <li>
                 <a href="#">All</a>
@@ -53,14 +55,15 @@
                 <a href="#">Experiments</a>
             </li>
         </ul>
-    </div>
+    </div> -->
     <!-- PROJECTS -->
-    <div class="center">
+    {% import "test.njk" as forms %} {% import "card.njk" as card %}
         <div class="container">
+            <div class="frame">
 
-            {% for project in projects %} {{ card.card(project)}} {% endfor %}
+                {% for project in projects %} {{ card.card(project)}} {% endfor %}
+            </div>
         </div>
-    </div>
     <div class="project-details-panel">
         <a href="#" class="project-details-panel-close-button">X</a>
         <h1>STUFF</h1>
@@ -73,7 +76,7 @@
         <div>FOOTER</div>
     </footer>
     <!-- JS -->
-    <script type="text/javascript" src="main.js"></script>
+    <!-- <script type="text/javascript" src="main.js"></script> -->
 </body>
 
 </html>
