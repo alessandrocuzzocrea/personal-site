@@ -12,7 +12,7 @@
     }, {
         "id": "saas",
         "title": "SaaS",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
         "category": "webdesign",
         "icons": [],
         "links" : {
@@ -32,7 +32,7 @@
     }, {
         "id": "softwarerenderer",
         "title": "Software Renderer",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
         "category": "experiments",
         "icons": [],
         "links" : {
@@ -62,7 +62,7 @@
     }, {
         "id": "hypermazearcade",
         "title": "Hyper Maze Arcade",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
         "category": "games",
         "icons": [],
         "links" : {
