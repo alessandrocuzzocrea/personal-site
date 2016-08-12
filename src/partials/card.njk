@@ -10,8 +10,9 @@
             <img src="/hypermazearcade.png">
             <div>{{ project.description }}</div>
 	            <div class="feature-links">
-		            <a href="">LINK1</a>
-		            <a href="">LINK2</a>
+	            	{% for text, link in project.links %}
+		            	<a href="{{ link }}">{{ text }}</a>
+		            {% endfor %}	
 	            </div>
             </div>
             <!-- <div class="bit-2">
