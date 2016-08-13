@@ -1,16 +1,28 @@
 .header {
 	text-align: center;
+	margin: 100px;
     // padding-right: 15px;
     // padding-left: 15px;
     // margin-right: auto;
     // margin-left: auto;
+
+    * {
+    	margin-bottom: 20px;
+    }
+
     &-title {
     	color: $grigio-scuro;
-    	font-size: 1.0rem;
+    	font-size: 5.0rem;
     }
     &-subtitle{
     	color: $grigio-chiaro;
     	font-size: 1.0rem;
     }
-    &-links {}
+    &-links {
+
+    }
+}
+
+.st0:hover{
+	fill: red;
 }
