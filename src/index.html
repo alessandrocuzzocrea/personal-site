@@ -59,10 +59,11 @@
     <!-- PROJECTS -->
     {% import "test.njk" as forms %} {% import "card.njk" as card %}
         <div class="container">
-            <div class="frame">
-                {% for project in projects %} 
+            <div class="row">
+                                {% for project in projects %} 
                     {{ card.card(project)}} 
                 {% endfor %}
+
             </div>
         </div>
     <div class="project-details-panel">

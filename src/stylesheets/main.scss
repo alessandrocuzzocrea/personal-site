@@ -139,3 +139,18 @@ footer {
     color: white;
     background-color: black;
 }
+
+.row {
+    display: flex;
+    flex-flow: wrap;
+
+}
+
+.bit-1{
+    display: flex;
+    // flex-direction: column
+}
+
+.feature-links{
+    // align-self: flex-end;
+}
