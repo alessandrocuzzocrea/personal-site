@@ -143,8 +143,11 @@ img {
 }
 
 footer {
-    color: white;
-    background-color: black;
+    padding: 40px;
+    text-align: center;
+    color: $grigio-chiaro;
+    font-size: .70rem;
+    //background-color: black;
 }
 
 .row {
