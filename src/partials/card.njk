@@ -2,23 +2,18 @@
 <!-- FEATURE 1 -->
 <div class="bit-1">
         <div id="{{ project.id }}" class="feature">
-          <!--   <div class="bit-1">
-                <h2 class="feature-title">{{ project.title }}</h2></div> -->
-            <div> 
+            <!-- <div>  -->
             
             
             <img src="/hypermazearcade.png">
-            <div>{{ project.title }}</div>
-            <div>{{ project.description }}</div>
+            <!-- <div>{{ project.title }}</div> -->
+            <div class="feature-description">{{ project.description }}</div>
 	            <div class="feature-links">
 	            	{% for text, link in project.links %}
 		            	<a href="{{ link }}">{{ text }}</a>
 		            {% endfor %}	
 	            </div>
-            </div>
-            <!-- <div class="bit-2">
-                <p>{{ project.description }}</p>
-            </div> -->
+            <!-- </div> -->
         </div>
 </div>
 {% endmacro %}
