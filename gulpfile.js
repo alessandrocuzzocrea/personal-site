@@ -2,8 +2,8 @@ var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 var sass = require('gulp-sass');
 var del = require('del');
-var nunjucksRender = require('gulp-nunjucks-render');
-var data = require('gulp-data');
+// var nunjucksRender = require('gulp-nunjucks-render');
+// var data = require('gulp-data');
 
 gulp.task('clean', function() {
     // You can use multiple globbing patterns as you would with `gulp.src`
@@ -24,7 +24,7 @@ gulp.task('serve', ['html', 'sass', 'assets', 'js'], function() {
     gulp.watch('src/assets/*.*', ['assets']);
     gulp.watch('src/*.html', ['html']);
     gulp.watch('src/partials/*.njk', ['html']);
-    gulp.watch('src/data.json', ['html']);
+    // gulp.watch('src/data.json', ['html']);
     gulp.watch('src/javascripts/*.js', ['js']);
     //gulp.watch("src/*.html").on('change', browserSync.reload);
     //gulp.watch("src/js/*.js").on('change', browserSync.reload);
@@ -34,12 +34,12 @@ gulp.task('html', function() {
 
     //return gulp.src(['input/folder/**/*'])
     return gulp.src("src/*.html")
-        .pipe(data(function() {
-            return require('./src/data.json')
-        }))
-        .pipe(nunjucksRender({
-            path: 'src/partials'
-        }))
+        // .pipe(data(function() {
+        //     return require('./src/data.json')
+        // }))
+        // .pipe(nunjucksRender({
+        //     path: 'src/partials'
+        // }))
         .pipe(gulp.dest("dist/"))
         .pipe(browserSync.stream());
 
