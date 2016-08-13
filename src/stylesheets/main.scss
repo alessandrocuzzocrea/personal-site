@@ -168,6 +168,12 @@ footer {
 .feature-links {
     // align-self: flex-end;
     padding-top: 40px;
+
+    a:after {
+        content: '|';
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 
 .feature-description {

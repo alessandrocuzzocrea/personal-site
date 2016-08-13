@@ -2,7 +2,7 @@
     "projects": [{
         "id": "pipper",
         "title": "Pipper",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
+        "description": "Lorem ipsum dolor sit amet, <a href='#'><img border='0' alt='email' src='mail.svg' width='32' height='32'></a> consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.",
         "category": "fullstack",
         "icons": ["rails", "angular", "bootstrap"],
         "links" : {
@@ -62,12 +62,20 @@
     }, {
         "id": "hypermazearcade",
         "title": "Hyper Maze Arcade",
-        "description": "Lorem ipsum dolor sit amet, e in risus sollicitudin, sodales eros vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sodales eros vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in risus sollicitudin, sod",
+        "description": "Hyper Maze Arcade is the evolution of the classic maze game. It's a new type of game that takes inspiration from a classic game concept and innovates it to a whole new level.",
         "category": "games",
         "icons": [],
         "links" : {
-            "ZIO TREIV" : "http://www.test1.com",
-            "Google Play" : "http://www.test2.com"
+            "App Store" : "http://itunes.apple.com/app/id947001459",
+            "Google Play" : "https://play.google.com/store/apps/details?id=com.pixelheartstudios.hypermaze"
+        }
+    }, {
+        "id": "evilcupido",
+        "title": "Evil Cupido",
+        "description": "A game developed in 3 days for the Ludum Dare 32 competition.",
+        "category": "games",
+        "icons": [],
+        "links" : {
         }
     }]
 }
