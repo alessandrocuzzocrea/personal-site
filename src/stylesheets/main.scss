@@ -3,7 +3,6 @@
 @import 'vars.scss';
 @import 'grid.scss';
 @import 'header.scss';
-
 body {
     font-family: 'Roboto', sans-serif;
     background-image: url("background.png");
@@ -85,6 +84,11 @@ img {
     padding: 10px;
     border: 1px;
     border-color: black;
+    span {
+        color: grey;
+        opacity: 0.5;    
+    }
+    
     img {
         width: 100%;
         height: auto;
@@ -168,13 +172,10 @@ footer {
 .feature-links {
     // align-self: flex-end;
     padding-top: 40px;
-    a{
-    a:after {
-        content: '|';
+    span {
         margin-left: 10px;
         margin-right: 10px;
     }
-}
 }
 
 .feature-description {
