@@ -166,6 +166,7 @@ footer {
 
 .feature {
     display: flex;
+    flex: 0 1 100%; //NON SI SA PERCHE MA QUESTO RISOLVE IL BUG DEI FLEX NESTATI IN IE
     flex-direction: column;
 }
 
