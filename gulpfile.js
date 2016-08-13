@@ -4,6 +4,8 @@ var sass = require('gulp-sass');
 var del = require('del');
 // var nunjucksRender = require('gulp-nunjucks-render');
 // var data = require('gulp-data');
+var cssnano = require('gulp-cssnano');
+
 
 gulp.task('clean', function() {
     // You can use multiple globbing patterns as you would with `gulp.src`
@@ -83,5 +85,11 @@ gulp.task('js', function() {
 //         // output files in app folder
 //         .pipe(gulp.dest('dist/'))
 // });
+
+gulp.task('mincss', function() {
+    return gulp.src('./dist/main.css')
+        .pipe(cssnano())
+        .pipe(gulp.dest('./dist/main.min.css'));
+});
 
 gulp.task('default', ['clean', 'serve']);
