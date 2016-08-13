@@ -1,0 +1,16 @@
+.header {
+	text-align: center;
+    // padding-right: 15px;
+    // padding-left: 15px;
+    // margin-right: auto;
+    // margin-left: auto;
+    &-title {
+    	color: $grigio-scuro;
+    	font-size: 1.0rem;
+    }
+    &-subtitle{
+    	color: $grigio-chiaro;
+    	font-size: 1.0rem;
+    }
+    &-links {}
+}

@@ -1,14 +1,17 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
-//@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import 'fonts.scss';
+@import 'reset.scss';
+@import 'vars.scss';
 @import 'grid.scss';
+@import 'header.scss';
+
 body {
     font-family: 'Roboto', sans-serif;
     background-image: url("background.png");
 }
 
 img {
-    width: 100%;
-    height: auto;
+    // width: 100%;
+    // height: auto;
 }
 
 .navbar {
@@ -83,6 +86,8 @@ img {
     border: 1px;
     border-color: black;
     img {
+        width: 100%;
+        height: auto;
         padding-bottom: 10px;
     }
     a {
