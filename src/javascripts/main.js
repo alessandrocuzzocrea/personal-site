@@ -19,7 +19,7 @@
             var n = document.querySelectorAll(".panel-body");
                     for (var i = 0; i < n.length; i++) {
                         console.log(""+n[i].offsetHeight);
-                        n[i].style.height = "460px";
+                        n[i].style.height = "500px";
                     }
         }
 

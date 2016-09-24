@@ -1,68 +1,6 @@
-
-$jumbotron-bg: transparent;
-
-/*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-
-// Core variables and mixins
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
-
-// Reset and dependencies
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/print";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
-
-// Core CSS
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/type";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/code";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/tables";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/forms";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
-
-// Components
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/dropdowns";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/button-groups";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/input-groups";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navs";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navbar";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/breadcrumbs";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/pagination";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/pager";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/labels";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/badges";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/jumbotron";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/thumbnails";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/alerts";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/progress-bars";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/media";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/list-group";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/panels";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-embed";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/wells";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/close";
-
-// Components w/ JavaScript
-//@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/modals";
-//@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/tooltip";
-//@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/popovers";
-//@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/carousel";
-
-// Utility classes
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
-
 @import 'fonts.scss';
-//@import 'reset.scss';
 @import 'vars.scss';
-//@import 'grid.scss';
-//@import 'header.scss';
+@import 'bootstrap_custom.scss';
 
 
 body {
@@ -70,28 +8,19 @@ body {
     background-image: url("background.png");
 }
 
-footer {
-    padding: 40px;
-    text-align: center;
-    color: $grigio-chiaro;
-    font-size: .70rem;
-    //background-color: black;
-}
+
 
 .header {
-    text-align: center;
-    margin: 100px;
-    * {
-        margin-bottom: 20px;
-    }
     &-title {
-        color: $grigio-scuro;
-        font-size: 5.0rem;
+        // color: $grigio-scuro;
+        color: red;
+        // font-size: 6.0rem;
     }
     &-subtitle {
         color: $grigio-chiaro;
-        font-size: 1.0rem;
+        // font-size: 2.0rem;
     }
+
     &-links {
         a {
             &:first-child {
@@ -99,103 +28,35 @@ footer {
             }
         }
     }
+    
 }
 
-.st0:hover {
-    fill: red;
-}
-
-
-/*
-img {
-    // width: 100%;
-    // height: auto;
-}
-
-.navbar {
-    width: 100%;
-    height: 20px;
-    top: 0;
-    left: 0;
-    background-color: white;
-    // float: left;
-    &-logo {
-        // margin: 20px;
-        float: left;
-        // width: 400px;
-        // height: 40px;
-        //background: url("http://placehold.it/200x10") no-repeat center;
-        // display: block;
-    }
-    &-menu {
-        float: right;
-        // padding: 20px;
-    }
-    ul {
-        list-style: none;
-    }
-    li {
-        display: inline-block;
-        float: left; //ok
-        // padding: 10px;
-    }
-}
-
-.filter {
-    ul {
-        list-style: none;
-    }
-    li {
-        display: inline-block;
-        float: left; //ok
-        // padding: 10px;
-    }
-}
-
-.container {
-    // display: inline-block;
-    // text-align: center;
-    // max-width: 900px;
-    // @media screen and (min-width: 900px){
-    // }
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    @media (min-width: 768px) {
-        width: 750px;
-    }
-    @media (min-width: 992px) {
-        width: 970px;
-    }
-    @media (min-width: 1200px) {
-        width: 1170px;
-    }
-}
-
-.center {
-    width: 100%;
+footer {
+    padding: 40px;
     text-align: center;
+    color: $grigio-chiaro;
+    font-size: 1.2rem;
+    //background-color: black;
 }
 
 .feature {
-    background-color: white;
-    padding: 10px;
-    border: 1px;
-    border-color: black;
-    span {
-        color: grey;
-        opacity: 0.5;    
-    }
-    
-    img {
-        width: 100%;
-        height: auto;
+
+    &-project-name{
         padding-bottom: 10px;
     }
+
+    &-description {
+        padding-bottom: 10px;
+    }
+
+    img {
+         padding-bottom: 10px;
+
+    }
+
     a {
         text-decoration: none;
-        color: grey;
+        color: $grigio-scuro;
         opacity: 0.5;
         transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
         &:hover,
@@ -203,76 +64,9 @@ img {
             opacity: 1;
         }
     }
-    &-links {
-        text-align: right;
-    }
-    // a:after {
-    //   content: "";
-    //   display: block;
-    //   clear: both;
-    // }
-    box-shadow: 0 1px 3px rgba(0,
-    0,
-    0,
-    0.012),
-    0 1px 2px rgba(0,
-    0,
-    0,
-    0.24);
-    transition: all 0.3s cubic-bezier(.25,
-    .8,
-    .25,
-    1);
-    &:hover {
-        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    }
-}
 
-.project-details-panel {
-    background-color: red;
-    position: fixed;
-    top: 0px;
-    right: -1000px;
-    width: 200px;
-    opacity: 0;
-    transition-duration: .3s, .5s;
-    transition-timing-function: ease-in-out;
-    transition-property: right, opacity, box-shadow;
-}
-
-.show {
-    right: 0px;
-    opacity: 1;
-}
-
-
-
-.row {
-    display: flex;
-    flex-flow: wrap;
-}
-
-.bit-1 {
-    display: flex;
-    // flex-direction: column
-}
-
-.feature {
-    display: flex;
-    flex: 0 1 100%; //NON SI SA PERCHE MA QUESTO RISOLVE IL BUG DEI FLEX NESTATI IN IE
-    flex-direction: column;
-}
-
-.feature-links {
-    // align-self: flex-end;
-    padding-top: 40px;
     span {
-        margin-left: 10px;
-        margin-right: 10px;
+        color: $grigio-scuro;
+        opacity: 0.5;
     }
 }
-
-.feature-description {
-    margin-bottom: auto;
-}
-*/
