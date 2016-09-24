@@ -1,10 +1,11 @@
-var gulp = require('gulp');
-var browserSync = require('browser-sync').create();
-var sass = require('gulp-sass');
-var del = require('del');
+const gulp = require('gulp');
+const browserSync = require('browser-sync').create();
+const sass = require('gulp-sass');
+const del = require('del');
 // var nunjucksRender = require('gulp-nunjucks-render');
 // var data = require('gulp-data');
-var cssnano = require('gulp-cssnano');
+const cssnano = require('gulp-cssnano');
+const autoprefixer = require('gulp-autoprefixer');
 
 
 gulp.task('clean', function() {
@@ -14,8 +15,6 @@ gulp.task('clean', function() {
 
 // Static Server + watching scss/html files
 gulp.task('serve', ['html', 'sass', 'assets', 'js'], function() {
-
-
 
     browserSync.init({
         server: './dist',
@@ -51,6 +50,7 @@ gulp.task('html', function() {
 gulp.task('sass', function() {
     return gulp.src("src/stylesheets/main.scss")
         .pipe(sass())
+        .pipe(autoprefixer('last 3 versions'))
         .pipe(gulp.dest("dist"))
         .pipe(browserSync.stream());
 });
@@ -67,7 +67,7 @@ gulp.task('svg', function() {
         .pipe(browserSync.stream());
 });
 
-gulp.task('assets', ['png','svg']);
+gulp.task('assets', ['png', 'svg']);
 
 gulp.task('js', function() {
     return gulp.src("src/javascripts/*.js")
