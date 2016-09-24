@@ -58,9 +58,9 @@ $jumbotron-bg: transparent;
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
 
-//@import 'fonts.scss';
+@import 'fonts.scss';
 //@import 'reset.scss';
-//@import 'vars.scss';
+@import 'vars.scss';
 //@import 'grid.scss';
 //@import 'header.scss';
 
@@ -69,6 +69,43 @@ body {
     font-family: 'Roboto', sans-serif;
     background-image: url("background.png");
 }
+
+footer {
+    padding: 40px;
+    text-align: center;
+    color: $grigio-chiaro;
+    font-size: .70rem;
+    //background-color: black;
+}
+
+.header {
+    text-align: center;
+    margin: 100px;
+    * {
+        margin-bottom: 20px;
+    }
+    &-title {
+        color: $grigio-scuro;
+        font-size: 5.0rem;
+    }
+    &-subtitle {
+        color: $grigio-chiaro;
+        font-size: 1.0rem;
+    }
+    &-links {
+        a {
+            &:first-child {
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+.st0:hover {
+    fill: red;
+}
+
+
 /*
 img {
     // width: 100%;
@@ -208,13 +245,7 @@ img {
     opacity: 1;
 }
 
-footer {
-    padding: 40px;
-    text-align: center;
-    color: $grigio-chiaro;
-    font-size: .70rem;
-    //background-color: black;
-}
+
 
 .row {
     display: flex;
