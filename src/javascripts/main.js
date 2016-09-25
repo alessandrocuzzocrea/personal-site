@@ -17,9 +17,18 @@
 
 
             var n = document.querySelectorAll(".panel-body");
+
+            var tallest = 0;
+
                     for (var i = 0; i < n.length; i++) {
                         console.log(""+n[i].offsetHeight);
-                        n[i].style.height = "500px";
+                        if (n[i].offsetHeight > tallest){
+                            tallest = n[i].offsetHeight;
+                        }
+                    }
+
+                    for (var i = 0; i < n.length; i++) {
+                        n[i].style.height = tallest + "px";
                     }
         }
 
