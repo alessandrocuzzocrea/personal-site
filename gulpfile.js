@@ -6,7 +6,7 @@ const del = require('del');
 // var data = require('gulp-data');
 const cssnano = require('gulp-cssnano');
 const autoprefixer = require('gulp-autoprefixer');
-
+const removeHtmlComments = require('gulp-remove-html-comments');
 
 gulp.task('clean', function() {
     // You can use multiple globbing patterns as you would with `gulp.src`
@@ -41,6 +41,7 @@ gulp.task('html', function() {
         // .pipe(nunjucksRender({
         //     path: 'src/partials'
         // }))
+        // .pipe(removeHtmlComments())
         .pipe(gulp.dest("dist/"))
         .pipe(browserSync.stream());
 
