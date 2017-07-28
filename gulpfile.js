@@ -70,3 +70,5 @@ gulp.task('mincss', function() {
 });
 
 gulp.task('default', ['clean', 'serve']);
+
+gulp.task('build', ['html', 'sass', 'assets', 'js']);
