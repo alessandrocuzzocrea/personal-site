@@ -2,8 +2,6 @@ const gulp = require('gulp');
 const browserSync = require('browser-sync').create();
 const sass = require('gulp-sass');
 const del = require('del');
-// var nunjucksRender = require('gulp-nunjucks-render');
-// var data = require('gulp-data');
 const cssnano = require('gulp-cssnano');
 const autoprefixer = require('gulp-autoprefixer');
 const removeHtmlComments = require('gulp-remove-html-comments');
@@ -25,23 +23,12 @@ gulp.task('serve', ['html', 'sass', 'assets', 'js'], function() {
     gulp.watch('src/assets/*.*', ['assets']);
     gulp.watch('src/*.html', ['html']);
     gulp.watch('src/partials/*.njk', ['html']);
-    // gulp.watch('src/data.json', ['html']);
     gulp.watch('src/javascripts/*.js', ['js']);
-    //gulp.watch("src/*.html").on('change', browserSync.reload);
-    //gulp.watch("src/js/*.js").on('change', browserSync.reload);
 });
 
 gulp.task('html', function() {
 
-    //return gulp.src(['input/folder/**/*'])
     return gulp.src("src/*.html")
-        // .pipe(data(function() {
-        //     return require('./src/data.json')
-        // }))
-        // .pipe(nunjucksRender({
-        //     path: 'src/partials'
-        // }))
-        // .pipe(removeHtmlComments())
         .pipe(gulp.dest("dist/"))
         .pipe(browserSync.stream());
 
@@ -75,17 +62,6 @@ gulp.task('js', function() {
         .pipe(gulp.dest("dist"))
         .pipe(browserSync.stream());
 });
-
-// gulp.task('nunjucks', function() {
-//     // Gets .html and .nunjucks files in pages
-//     return gulp.src('src/index.html')
-//         // Renders template with nunjucks
-//         .pipe(nunjucksRender({
-//             path: 'src/partials'
-//         }))
-//         // output files in app folder
-//         .pipe(gulp.dest('dist/'))
-// });
 
 gulp.task('mincss', function() {
     return gulp.src('./dist/main.css')
