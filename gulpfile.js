@@ -39,6 +39,7 @@ gulp.task('sass', function() {
     return gulp.src("src/stylesheets/main.scss")
         .pipe(sass())
         .pipe(autoprefixer('last 3 versions'))
+        .pipe(cssnano())
         .pipe(gulp.dest("dist"))
         .pipe(browserSync.stream());
 });
@@ -63,11 +64,11 @@ gulp.task('js', function() {
         .pipe(browserSync.stream());
 });
 
-gulp.task('mincss', function() {
-    return gulp.src('./dist/main.css')
-        .pipe(cssnano())
-        .pipe(gulp.dest('./dist/main.min.css'));
-});
+// gulp.task('mincss', function() {
+//     return gulp.src('./dist/main.css')
+//         .pipe(cssnano())
+//         .pipe(gulp.dest('./dist/main.min.css'));
+// });
 
 gulp.task('default', ['clean', 'serve']);
 
