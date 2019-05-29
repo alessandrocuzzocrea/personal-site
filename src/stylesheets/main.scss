@@ -1,4 +1,4 @@
-@import 'fonts.scss';
+// @import 'fonts.scss';
 @import 'vars.scss';
 // @import 'bootstrap_custom.scss';
 
@@ -76,36 +76,29 @@ body {
     // text-align: center;
 }
 
+@mixin stripes {
+    width: 300px;
+    height: 400px;
+    background-image: linear-gradient(
+      127deg,
+      $stripes-color 15px,
+      $blue 15px 30px,
+      $stripes-color 30px 45px,
+      $blue 45px 60px,
+      $stripes-color 60px 75px,
+      $blue 75px
+    );
+  }
+
 .child-top-left {
-   width: 300px;
-   height: 400px;
-   background-image: linear-gradient(
-     127deg,
-     $yellow 20px,
-     $blue 20px 40px,
-     $yellow 40px 60px,
-     $blue 60px 80px,
-     $yellow 80px 100px,
-     $blue 100px
-   );
+   @include stripes;
  }
  
  .child-bottom-right{
-   // transform: ;
-   transform: scaleY(-1);
-   order: 1;
-   flex: 0 1 auto;
-   align-self: flex-end;
-   width: 300px;
-   height: 400px;
- 
-   background-image: linear-gradient(
-     -127deg,
-     $yellow 20px,
-     $blue 20px 40px,
-     $yellow 40px 60px,
-     $blue 60px 80px,
-     $yellow 80px 100px,
-     $blue 100px
-   );
+    @include stripes;
+    transform: scaleX(-1) scaleY(-1);
+    order: 1;
+    flex: 0 1 auto;
+    align-self: flex-end;
  }
+ 
