@@ -77,16 +77,17 @@ body {
 }
 
 @mixin stripes {
-    width: 300px;
+    width: 400px;
     height: 400px;
     background-image: linear-gradient(
-      127deg,
-      $stripes-color 15px,
-      $blue 15px 30px,
-      $stripes-color 30px 45px,
-      $blue 45px 60px,
-      $stripes-color 60px 75px,
-      $blue 75px
+      130deg,
+      $blue 15px,
+      $stripes-color 15px 30px,
+      $blue 30px 45px,
+      $stripes-color 45px 60px,
+      $blue 60px 75px,
+      $stripes-color 75px 90px,
+      $blue 90px
     );
   }
 
