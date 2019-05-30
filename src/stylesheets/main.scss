@@ -21,7 +21,7 @@ a {
 body {
     margin: 0;
 }
-.flex-container {
+.container {
     height: 100%;
     margin: 0 auto;
     width: 60%;
@@ -35,7 +35,7 @@ body {
     flex-direction: column;
 }
 
-.flex-background {
+.background {
     position: absolute;
     left: 0px;
     top: 0px;
@@ -59,7 +59,7 @@ body {
 //     width: auto;
 //     border: 1px solid blue;
 // }
-.flex-item {
+.item {
     display: flex;
     // justify-content: center;
     // align-items: center;
@@ -91,11 +91,11 @@ body {
     );
   }
 
-.child-top-left {
+.stripes-top-left {
    @include stripes;
  }
 
- .child-bottom-right{
+ .stripes-bottom-right{
     @include stripes;
     transform: scaleX(-1) scaleY(-1);
     order: 1;
