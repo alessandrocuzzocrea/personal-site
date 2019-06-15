@@ -2,9 +2,12 @@
 <html>
     {{- partial "head.html" . -}}
     <body>
+        <div>baseof.html</div>
         {{- partial "header.html" . -}}
         <div id="content">
-        {{- block "main" . }}{{- end }}
+        {{ block "main" . }}
+              <!-- The part of the page that begins to differ between templates -->
+        {{ end }}
         </div>
         {{- partial "footer.html" . -}}
     </body>

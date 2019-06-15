@@ -2,3 +2,8 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Alessandro Cuzzocrea"
 theme = "custom"
+# theme = "ananke"
+
+
+#[permalinks]
+#  posts = "/:year/:month/:title/"
