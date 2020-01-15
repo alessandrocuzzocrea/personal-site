@@ -1409,7 +1409,7 @@
 span{
   display: inline-block;
 }
-.lni-spin-effect {
+/* .lni-spin-effect {
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
@@ -1487,7 +1487,7 @@ span{
 .lni-fade-right-effect-hover:hover {
   -webkit-animation: fade-right 1.5s infinite linear;
   animation: fade-right 1.5s infinite linear;
-}
+} */
 
 .size-xs {
   font-size: 1rem !important;
@@ -1514,7 +1514,7 @@ span{
   font-size: 3rem !important;
 }
 
-
+/* 
 @-webkit-keyframes spin
 {
     0%
@@ -1900,8 +1900,4 @@ span{
 {
     -webkit-animation: fade-right 1.5s infinite linear;
             animation: fade-right 1.5s infinite linear;
-}
-
-
-
-
+} */

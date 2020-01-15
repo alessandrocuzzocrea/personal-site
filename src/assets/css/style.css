@@ -627,11 +627,11 @@ p {
           border-radius: 50%;
           font-size: 18px;
           color: #00b9f1;
-          -webkit-transition: all 0.3s ease-out 0s;
+          /* -webkit-transition: all 0.3s ease-out 0s;
           -moz-transition: all 0.3s ease-out 0s;
           -ms-transition: all 0.3s ease-out 0s;
-          -o-transition: all 0.3s ease-out 0s;
-          transition: all 0.3s ease-out 0s;
+          -o-transition: all 0.3s ease-out 0s; */
+          /* transition: all 0.3s ease-out 0s; */
           position: relative;
           z-index: 5;
           overflow: hidden; }
