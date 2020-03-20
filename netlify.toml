@@ -2,6 +2,18 @@
  command = "hugo"
  publish = "public"
 
+[context.production.environment]
+HUGO_VERSION = "0.67.1"
+
+[context.split1.environment]
+HUGO_VERSION = "0.67.1"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.67.1"
+
+[context.branch-deploy.environment]
+HUGO_VERSION = "0.67.1"
+
 [[redirects]]
  from = "/business-card"
  to = "/"
