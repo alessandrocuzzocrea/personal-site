@@ -1,7 +1,7 @@
-baseURL = "http://example.org/"
+baseURL = "https://alessandrocuzzocrea.com/"
 languageCode = "en-us"
 title = "Alessandro Cuzzocrea"
-theme = "custom"
+# theme = "custom"
 # theme = "ananke"
 
 
