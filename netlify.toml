@@ -1,3 +1,7 @@
+[build]
+ command = "hugo --gc --minify"
+ publish = "public"
+
 [[redirects]]
  from = "/business-card"
  to = "/"
