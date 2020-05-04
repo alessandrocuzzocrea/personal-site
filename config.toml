@@ -7,3 +7,5 @@ title = "Alessandro Cuzzocrea"
 
 #[permalinks]
 #  posts = "/:year/:month/:title/"
+
+disableKinds = ["sitemap"]
