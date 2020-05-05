@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Rubik:400,500,700");
 body {
-    font-family: "Rubik", sans-serif;
+    font-family: sans-serif;
     font-weight: normal;
     font-style: normal;
     color: #777;
@@ -36,7 +35,7 @@ a {
 }
 
 h3 {
-    font-family: "Rubik", sans-serif;
+    font-family: sans-serif;
     font-weight: 500;
     color: #222;
     margin: 0px;
