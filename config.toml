@@ -1,11 +1,9 @@
 baseURL = "https://alessandrocuzzocrea.com/"
 languageCode = "en-us"
 title = "Alessandro Cuzzocrea"
-# theme = "custom"
-# theme = "ananke"
+theme = "custom"
 
+disableKinds = ["section"]
 
-#[permalinks]
-#  posts = "/:year/:month/:title/"
-
-disableKinds = ["sitemap"]
+[permalinks]
+  posts = "/:slug/"
