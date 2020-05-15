@@ -21,7 +21,7 @@
     <link rel="canonical" href="https://alessandrocuzzocrea.com"/>
     <link rel="shortcut icon" href="images/favicon.png" type="image/png">
 
-    {{ $style := resources.Get "css/main.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    {{ $style := resources.Get "css/main.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 
     <!-- Structured Data -->
