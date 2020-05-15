@@ -1,3 +1,17 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 {
+    color: #6474ED;
+}
+
+.article-date {
+    font-style: italic;
+    color: #8c6e6e;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
