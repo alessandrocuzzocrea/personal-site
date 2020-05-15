@@ -1,8 +1,5 @@
 {{ define "main" }}
-
-{{ .Title }}
-{{ .Date.Format "2006-01-02" }}
-
-{{ .Content }}
-
+    <div class="div">{{ .Title }}</div>
+    <div class="div">{{ .Date.Format "2006-01-02" }}</div>
+    <div class="div">{{ .Content }}</div>
 {{ end }}
