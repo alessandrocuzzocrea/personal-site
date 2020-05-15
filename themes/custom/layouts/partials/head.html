@@ -20,7 +20,9 @@
     <title>Alessandro Cuzzocrea - Full-Stack Software Engineer</title>
     <link rel="canonical" href="https://alessandrocuzzocrea.com"/>
     <link rel="shortcut icon" href="images/favicon.png" type="image/png">
-    <link rel="stylesheet" href="css/bundle.min.css">
+
+    {{ $style := resources.Get "css/main.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
 
     <!-- Structured Data -->
     <script type="application/ld+json">
