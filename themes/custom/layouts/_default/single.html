@@ -1,1 +1,8 @@
-<div>single.html</div>
+{{ define "main" }}
+
+{{ .Title }}
+{{ .Date.Format "2006-01-02" }}
+
+{{ .Content }}
+
+{{ end }}

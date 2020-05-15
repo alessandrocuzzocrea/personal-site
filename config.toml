@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Alessandro Cuzzocrea"
 theme = "custom"
 
+buildDrafts = true
+
 disableKinds = ["section"]
 
 [permalinks]

@@ -1,5 +1,6 @@
 ---
 title: "My First Post"
+date: "2012-04-06"
 draft: true
 ---
 
