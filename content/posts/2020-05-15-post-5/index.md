@@ -18,3 +18,5 @@ Curabitur in mauris est. Sed iaculis fermentum rhoncus. Cras convallis quam temp
 Sed eleifend vel urna at tincidunt. Maecenas non bibendum augue. Nunc posuere magna et semper ornare. In ut tortor porta, condimentum neque eget, venenatis urna. Fusce accumsan risus vel ante aliquam, quis facilisis turpis finibus. Suspendisse potenti. Sed aliquam risus non libero blandit hendrerit vitae in erat. Duis posuere metus id metus viverra fringilla. Quisque luctus imperdiet magna a rutrum. Aliquam erat volutpat. Ut vel enim sit amet enim maximus interdum. Phasellus felis orci, tristique eu massa in, tempor iaculis neque. Vestibulum dignissim, lorem non maximus tempor, tellus augue interdum lorem, at condimentum lacus est ut metus.
 
 Vestibulum finibus nunc vitae commodo rhoncus. Integer pharetra id ligula eget malesuada. Vivamus elementum velit id nulla ullamcorper sodales. Vivamus a fringilla turpis. Donec pulvinar eu est vitae dictum. Aliquam erat volutpat. Nulla sit amet orci ultrices, tincidunt ligula tempus, tincidunt dolor.
+
+{{< image src="IMG_1990.jpg" alt="Ramen" width="600" height="800" >}}
