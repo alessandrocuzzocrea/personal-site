@@ -16,7 +16,7 @@ After a few months, I got invited to the BitSummit Volunteers Facebook group whe
 
 The event weekend came along quickly. Me, and two friends of mine, who volunteered for this year BitSummit, boarded the Shinkansen on Friday after work to reach Kyoto.
 
-~ eki-ben pic ~
+{{< image src="eki-ben.jpg" alt="eki-ben pic" width="800" height="600">}}
 
 Day 1
 
@@ -31,9 +31,13 @@ At 9:00 the volunteer meeting starts. Around 80 volunteers gathered in the lobby
 The volunteer team leaders welcome us and give us a brief explanation regarding what we are supposed to do. We also got swag like our official volunteer t-shirts and staff badges. Then We get assigned to our subgroup and get further instructions from our subgroup leader.
 After that, we finally moved to the exhibition floor.
 
+{{< image src="bitsummit-2019-volunteers-tshirt-and-badge.jpg" alt="BitSummit 2019 Volunteers T-shirt and badge" width="800" height="600">}}
+
 One hour left before we open the gates for the press and general public to come in and enjoy the show. Devs are still putting the finishing touches on their boots and demo machines. Excitement is in the air. Our team leader gave us the exhibition floor tour, and we decided on our shift and schedule.
 
 10 minutes before the opening. Organizations are giving the opening speech in the central stage. After that we took the group photos. Finally, the gates open and visitors flood in.
+
+{{< image src="bitsummit-2019-volunteers-group.jpg" alt="BitSummit 2019 Volunteers group photo" width="800" height="600">}}
 
 The first shift I was assigned to Japanese Game Journalists who would interview a few international devs. It was the first time I had to do real-time English-Japanese interpretation in a professional context. It turned out to be a great personal challenge and learning experience. 
 
@@ -41,17 +45,17 @@ Volunteers were free to explore the exhibition floor and try out the games when 
 
 Around 13:00 my group had the lunch break. The event organizers kindly offered the meal, which consisted of your typical Japanese lunch box (one could choose between meat or fish). A variety of soft drinks were also available to all the volunteers free of charge. We chilled for around 20 minutes and then headed back to the floor.
 
-~ bitsummit bento pic ~
+{{< image src="bitsummit-bento.jpg" alt="Hideki Kamiya & I" width="800" height="600">}}
 
 During the second half, they assigned me to the photo booth, a little and quiet space where we took pictures of the visitors and provided them with a download link so they would remember the fun times they had at the BitSummit. Everything went well. Working at the photo booth ended up being great fun. Visitors loved taking silly pictures with us!
 
 The other volunteers and I were enjoying our time there at the photo booth when we noticed an unusual number of people talking and saying goodbye to each other in front of the IGN Japan booth. It looks like they just concluded their interview. And there he was. Hideki Kamiya. He was unmistakable with his glasses with orange spectacles. Kamiya is a former Capcom employee now working at PlatinumGames, which he co-founded with other former Capcom staff. We couldn’t pass the opportunity to take a photo with Kamiya so I politely asked him if he wanted to take a picture with us and he agreed. 
 
-~ Kamiya & Me at the photo booth pic ~
+{{< image src="hideki-kamiya-at-the-photo-booth.jpg" alt="Hideki Kamiya at the photo booth" width="800" height="600">}}
 
 After taking the pic and giving the card with the download link to Kamiya, we chatted about random stuff. When I mentioned that I’m interested in developing my own games he was really cool with it and he started telling me some anecdotes of when he was starting out. Really inspiring stuff.
 
-~ Kamiya & Me at the platinum booth pic ~
+{{< image src="kamiya-hideki-and-I.jpg" alt="Hideki Kamiya & I" width="800" height="600">}}
 
 After we finish talking I salute Kamiya leaving with the promise that we’ll meet again someday. Since my shift at the photo booth was over, I just started wandering around the exhibition floor looking for somebody in need of help while trying out games and talking to developers. 
 
@@ -61,7 +65,7 @@ BitSummit staff, volunteers, and developers got together to celebrate the succes
 
 As I was reaching my hotel, I made a slight detour to visit Nintendo’s historic former headquarters.
 
-~ Old Nintendo building pic ~
+{{< image src="nintendo-original-building.jpg" alt="Nintendo original building" width="800" height="600">}}
 
 Day 2
 
@@ -71,7 +75,7 @@ The second day started exactly like the first one, with a brief explanation and 
 
 The biggest highlight of day 2 was meeting Swery. Hidetaka Suehiro (best known in the industry by the moniker Swery65) was presenting his new game, The Missing: J.J. Macfield and the Island of Memories, to a foreign journalist. Swery English is amazing. He didn’t need my help at all, so instead, I just listened to his explanation. After the journalist was done with the interview, I seized the opportunity and started chatting with him. He was super nice, he started explaining to me how he got the idea for the game and part of his creative process. His company, White Owls Inc, was also presenting another game, The Good Life, at the Microsoft booth, and he suggested going there and try it if I had any free time. We exchanged business cards and we left with the promise to meet again in Tokyo someday to have an extended chat. 
 
-~ Swery pic ~
+{{< image src="swery-suehiro-hidetaka.jpg" alt="Swert & I" width="800" height="600">}}
 
 The second day at BitSummit went smoothly without problems. I got the impression that we had even more visitors than on the first day. 
 
@@ -89,10 +93,10 @@ Taking part in the BitSummit as a volunteer was an intense and extremely rewardi
 
 See you next year again in Kyoto!
 
-~ volunteers group pic ~
+{{< image src="bitsummit-volunteers-group-photo.jpg" alt="Bitsummit Volunteers group photo after the event" width="800" height="600">}}
 
 Addendum
 
 Every time I’m in Kyoto I never return home without buying at least 5-6 packs of Yatsuhashi. What are those? You may ask. Originating from Kyoto, Yatsuhashi (also known as Kyoto Triangles) is a Japanese traditional sweet treat. They are made from glutinous rice flour, sugar, and cinnamon. There are two versions available, baked and unbaked (called Nama Yatsuhashi). They are both exquisite. The unbaked ones have a shorter expiration date. Keep that in mind if you’re buying them as souvenirs.
 
-~ yatsuhashi pic ~
+{{< image src="yatsuhashi.jpg" alt="Yatsuhashi" width="800" height="600">}}
