@@ -1,8 +1,9 @@
 ---
-title: "Post 5"
+title: "Post 5 Title"
 slug: "post-5"
 date: "2020-05-15"
 description: "Post 5 Description"
+draft: true
 ---
 
 {{< image src="IMG_1616.jpg" alt="This is a photo of a pizza" width="800" height="600">}}
