@@ -8,6 +8,14 @@ body {
     text-align: center;
 }
 
+.info ul {
+    list-style: none;
+}
+
+.info li {
+    display: inline;
+}
+
 h1 {
     font-size: 2.2em;
     color: #6474ED;
@@ -16,7 +24,6 @@ h1 {
 h2 {
     font-size: 1.4em;
     font-weight: normal;
-    
 }
 
 .article-date {
