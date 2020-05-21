@@ -1,11 +1,12 @@
 {{ define "main" }}
-<div class="di">Alessandro Cuzzocrea</div>
-<picture>
-    <source srcset="images/profile.webp" type="image/webp">
-    <img src="images/profile.jpg" alt="Alessandro Cuzzocrea">
-</picture>
-<div class="div">Full-Stack Software Engineer based in Tokyo</div>
-
+<div class="info">
+    <picture>
+        <source srcset="images/profile.webp" type="image/webp">
+        <img class="profile" src="images/profile.jpg" alt="Alessandro Cuzzocrea">
+    </picture>
+    <h1>Alessandro Cuzzocrea</h1>
+    <h2>Full-Stack Software Engineer based in Tokyo</h2>
+</div>
 <div class="div">Recent Posts</div>
     {{ range .Site.RegularPages }}
         <li>

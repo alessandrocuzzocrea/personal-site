@@ -4,8 +4,19 @@ body {
     padding-right: 10px;
 }
 
+.info {
+    text-align: center;
+}
+
 h1 {
+    font-size: 2.2em;
     color: #6474ED;
+}
+
+h2 {
+    font-size: 1.4em;
+    font-weight: normal;
+    
 }
 
 .article-date {
@@ -16,6 +27,10 @@ h1 {
 img {
     max-width: 100%;
     height: auto;
+}
+
+img.profile {
+    border-radius: 50%;
 }
 
 p {
