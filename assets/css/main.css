@@ -22,3 +22,10 @@ p {
     font-size: 1.2rem;
     line-height: 1.4;
 }
+
+@media only screen and (min-width: 700px) {
+    main {
+        margin: 0 auto;
+        width: 700px;
+    }
+}
