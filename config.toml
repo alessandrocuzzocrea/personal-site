@@ -6,3 +6,7 @@ disableKinds = ["section"]
 
 [permalinks]
   posts = "/:slug/"
+
+[params]
+  author = "Alessandro Cuzzocrea"
+  description = "Full-Stack Software Engineer"

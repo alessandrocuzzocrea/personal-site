@@ -1,6 +1,6 @@
 <head>
-    <meta name="title" content="{{ .Title | default "Alessandro Cuzzocrea" }}">
-    <meta name="description" content="{{ .Description | default "Full-Stack Software Engineer based in Tokyo" }}">
+    <meta name="title" content="{{ .Title }}">
+    <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
     <meta name="keywords" content="alessandro, cuzzocrea, software, engineer, tokyo, japan">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -10,10 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Alessandro Cuzzocrea">
+    <meta property="og:title" content="{{ .Title }}">
     <meta property="og:site_name" content="Alessandro Cuzzocrea">
     <meta property="og:url" content="https://alessandrocuzzocrea.com">
-    <meta property="og:description" content="Full-Stack Software Engineer based in Tokyo">
+    <meta property="og:description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
     <meta property="og:type" content="profile">
     <meta property="og:image" content="https://alessandrocuzzocrea.com/images/profile_og.jpg">
     
