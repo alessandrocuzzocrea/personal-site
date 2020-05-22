@@ -1,0 +1,13 @@
+<div>list.html</div>
+
+{{ range .Pages }}
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          {{/*
+          Note we can use `.Render` here for items just in this section, instead of a partial to pull in items for the list page. https://gohugo.io/functions/render/
+          */}}
+           {{ .Render "summary" }}
+           <li>
+            <a href="{{.Permalink}}">{{.Title}}</a>
+        </li>
+    </div>
+{{ end }}

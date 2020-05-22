@@ -1,11 +1,17 @@
 baseURL = "https://alessandrocuzzocrea.com/"
 languageCode = "en-us"
-title = "Alessandro Cuzzocrea"
-# theme = "custom"
-# theme = "ananke"
+title = "Alessandro Cuzzocrea - Full-Stack Software Engineer"
+enableRobotsTXT = true
+enableGitInfo = true
 
+disableKinds = ["section", "taxonomy", "taxonomyTerm"]
 
-#[permalinks]
-#  posts = "/:year/:month/:title/"
+[permalinks]
+  posts = "/:slug/"
 
-disableKinds = ["sitemap"]
+[params]
+  author = "Alessandro Cuzzocrea"
+  description = "Full-Stack Software Engineer"
+  authorEmail = "YWxlc3NhbmRyby5jdXp6b2NyZWEyQGdtYWlsLmNvbQ=="
+  authorGithub = "alessandrocuzzocrea"
+  authorLinkedin = "alessandrocuzzocrea"

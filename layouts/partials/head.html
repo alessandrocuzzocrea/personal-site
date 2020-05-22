@@ -1,0 +1,44 @@
+<head>
+    <meta name="title" content="{{ .Title }}">
+    <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
+    <meta name="keywords" content="alessandro, cuzzocrea, software, engineer, tokyo, japan">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Alessandro Cuzzocrea">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:site_name" content="{{ $.Site.Title }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
+    <meta property="og:type" content="profile">
+    <meta property="og:image" content="{{ "/images/profile_og.jpg" | absURL }} ">
+    
+    <title>{{ .Title }}</title>
+    <link rel="canonical" href="{{ .Permalink }}"/>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+
+    {{ $style := resources.Get "css/main.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org/",
+            "@type": "Person",
+            "name": "Alessandro Cuzzocrea",
+            "familyName": "Cuzzocrea",
+            "givenName": "Alessandro",
+            "jobTitle": "Software Engineer",
+            "url": "http://alessandrocuzzocrea.com",
+            "image": "https://alessandrocuzzocrea.com/images/profile.jpg",
+            "sameAs": [
+                "https://github.com/alessandrocuzzocrea",
+                "https://www.linkedin.com/in/alessandrocuzzocrea"
+            ]
+        }
+    </script>
+</head>

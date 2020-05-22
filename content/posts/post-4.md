@@ -1,7 +1,9 @@
 ---
-title: "My Second Post"
-date: "2012-04-07"
+title: "Post 4"
+slug: "lollor"
+date: "2012-01-08"
 tags: ["scene"]
+description: "Post 4 Description"
 draft: true
 ---
 

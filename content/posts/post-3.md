@@ -1,6 +1,6 @@
 ---
-title: "My Second Post"
-date: "2012-04-07"
+title: "Post 3"
+date: "2012-04-08"
 tags: ["scene"]
 draft: true
 ---
