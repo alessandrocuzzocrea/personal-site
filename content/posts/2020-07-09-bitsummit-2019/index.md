@@ -16,7 +16,7 @@ The event weekend came along quickly. Me and two friends of mine, who also volun
 
 {{< image src="eki-ben.jpg" alt="eki-ben pic" width="800" height="600">}}
 
-Day 1
+## Day 1
 
 After a pleasant 2-hour Shinkansen trip, we finally reached Kyoto. We quickly checked in at our respective hotels and went to the pre-event party hosted by the volunteer leaders. It was an awesome night. I got to meet a bunch of interesting people from the most diverse backgrounds and cultures. There were a lot of native English speakers working teaching or translation jobs, but also plenty of game industry professionals living and working in the Kansai area. 
 
@@ -52,7 +52,7 @@ At 17:00, it was time to wrap up for the day. I left the Kyoto Messe and headed 
 
 {{< image src="nintendo-original-building.jpg" alt="Nintendo original building" width="800" height="600">}}
 
-Day 2
+## Day 2
 
 On Sunday, I woke up at 8:00, had a quick wash, got dressed, and started walking toward the nearest bus stop. I arrived at the Kyoto Messe just in time for the volunteers' morning meeting. The second day started exactly like the first one, with a brief explanation and the opening ceremony.
 
@@ -70,7 +70,7 @@ As you can probably imagine, the party was amazing.
 
 Unfortunately, I had to be at the office early the next day, so I couldn't stay for the after-party. I bid farewell to everybody and headed for Kyoto Station, where around midnight, I hopped on a night bus back to Tokyo.
 
-Conclusions
+## Conclusions
 
 Taking part in BitSummit as a volunteer was an intense but extremely rewarding experience. Getting to know and exchanging thoughts and opinions with my peers in the Japanese game industry was such a pleasure for me. Plus, I had the opportunity to finally meet legendary game developers of the caliber of Hideki Kamiya and Hidetaka Suehiro.
 
@@ -78,7 +78,7 @@ See you again next year, Kyoto!
 
 {{< image src="bitsummit-volunteers-group-photo.jpg" alt="Bitsummit Volunteers group photo after the event" width="800" height="600">}}
 
-Addendum
+## Addendum
 
 Every time I'm in Kyoto, I never fail to return home without buying at least 5-6 packs of yatsuhashi. What are those, you may ask? Originating from Kyoto, yatsuhashi (also known as Kyoto Triangles) are a kind of traditional Japanese sweet. They're made from glutinous rice flour, sugar, and cinnamon. There are two versions available, baked and unbaked – the latter is called nama (raw/uncooked) yatsuhashi. Both are exquisite, although the unbaked ones have a shorter expiration date – keep that in mind if you ever buy them as souvenirs.
 
