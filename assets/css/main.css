@@ -32,7 +32,7 @@ h2 {
     color: #8c6e6e;
 }
 
-img {
+.image-wrapper img {
     max-width: 100%;
     height: auto;
 }
@@ -51,4 +51,13 @@ p {
         margin: 0 auto;
         width: 700px;
     }
+
+    .image-wrapper {
+        text-align: center;
+    }
+
+    .image-wrapper img {
+        max-width: 60%;
+    }
+
 }
