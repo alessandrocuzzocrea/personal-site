@@ -11,3 +11,6 @@ disableKinds = ["section"]
 [params]
   author = "Alessandro Cuzzocrea"
   description = "Full-Stack Software Engineer"
+  authorEmail = "YWxlc3NhbmRyby5jdXp6b2NyZWEyQGdtYWlsLmNvbQ=="
+  authorGithub = "alessandrocuzzocrea"
+  authorLinkedin = "alessandrocuzzocrea"
