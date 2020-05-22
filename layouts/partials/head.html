@@ -19,7 +19,7 @@
     
     <title>{{ .Title }}</title>
     <link rel="canonical" href="{{ .Permalink }}"/>
-    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
 
     {{ $style := resources.Get "css/main.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
