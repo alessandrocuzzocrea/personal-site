@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Alessandro Cuzzocrea - Full-Stack Software Engineer"
 enableRobotsTXT = true
 
-disableKinds = ["section"]
+disableKinds = ["section", "taxonomy", "taxonomyTerm"]
 
 [permalinks]
   posts = "/:slug/"
