@@ -11,7 +11,7 @@
     
     <!-- Open Graph -->
     <meta property="og:title" content="{{ .Title }}">
-    <meta property="og:site_name" content="Alessandro Cuzzocrea">
+    <meta property="og:site_name" content="{{ $.Site.Title }}">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
     <meta property="og:type" content="profile">
