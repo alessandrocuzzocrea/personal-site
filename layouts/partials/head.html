@@ -15,7 +15,7 @@
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
     <meta property="og:type" content="profile">
-    <meta property="og:image" content="https://alessandrocuzzocrea.com/images/profile_og.jpg">
+    <meta property="og:image" content="{{ "/images/profile_og.jpg" | absURL }} ">
     
     <title>{{ .Title }}</title>
     <link rel="canonical" href="{{ .Permalink }}"/>
