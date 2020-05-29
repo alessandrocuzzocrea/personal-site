@@ -57,7 +57,7 @@ On Sunday, I woke up at 8:00, had a quick wash, got dressed, and started walking
 
 The biggest highlight of day 2 was meeting Swery. Hidetaka Suehiro (better known in the industry as Swery65) was presenting his new game, The Missing: J.J. Macfield and the Island of Memories, to a foreign journalist. Swery's English is amazing. He didn't need my help at all, so I just listened to his explanation. After the journalist was done with the interview, I seized the opportunity and started chatting with him. He was super nice, and started explaining to me how he got the idea for the game and part of his creative process. His company, White Owls Inc., was also presenting another game, The Good Life, at the Microsoft booth, and he suggested going there to try it if I had some free time. We exchanged business cards and left with the promise to meet again in Tokyo someday for an extended chat.
 
-{{< image src="swery-suehiro-hidetaka.jpg" alt="Swert & I" width="800" height="600">}}
+{{< image src="swery-suehiro-hidetaka.jpg" alt="Hidetaka Suehiro (Swery)" width="800" height="600">}}
 
 The second day at BitSummit went smoothly and was again successful – in fact, I got the impression that we had even more visitors than on day 1. 
 
