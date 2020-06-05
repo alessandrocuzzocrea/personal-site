@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 300;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -44,21 +45,16 @@ img.profile {
 
 p {
     font-size: 1.2rem;
-    line-height: 1.4;
+    line-height: 1.6;
 }
 
 @media only screen and (min-width: 600px) {
     main {
         margin: 0 auto;
-        width: 600px;
+        width: 670px;
     }
 
     .image-wrapper {
         text-align: center;
     }
-
-    .image-wrapper img {
-        max-width: 60%;
-    }
-
 }
