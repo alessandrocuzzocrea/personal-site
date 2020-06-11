@@ -21,14 +21,16 @@
     <link rel="canonical" href="{{ .Permalink }}"/>
     <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
 
-    {{ if .IsTranslated -}}
-    {{ range .Translations }}
+    {{ range .AllTranslations }}
     <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
-    {{ end }}
     {{ end }}
     
-    <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
-    <link rel="alternate" hreflang="x-default" href="https://example.com/" />
+    {{ range .AllTranslations }}
+    <!-- <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" /> -->
+    {{ if eq (string .Lang) "en" }}
+    <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />
+    {{ end }}
+    {{ end }}
 
     {{ $style := resources.Get "css/main.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
