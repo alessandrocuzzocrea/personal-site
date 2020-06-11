@@ -13,10 +13,13 @@
     </ul>
 </div>
 <hr>
-<div>Recent Posts</div>
-    {{ range .Site.RegularPages }}
+<div>{{$.Site.Params.recentPosts}}</div>
+    {{ $currLanguage := (string .Site.Language) }}
+    {{ $enSite := index .Sites 0 }}
+    {{ $pages := .Site.RegularPages | lang.Merge $enSite.RegularPages }}
+    {{ range $pages }}
         <li>
-            <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} {{.Title}}</a>
+            <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} {{ if and (not (eq (string .Language) $currLanguage)) (eq (string .Language) "en") }} (英語) {{ end }} {{.Title}}</a>
         </li>
     {{ end }}
 {{ end }}
