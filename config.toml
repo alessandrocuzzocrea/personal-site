@@ -26,5 +26,5 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm"]
     languageName = "Japanese"
     [languages.ja.params]
         description = "日本"
-        homePageDescription = "フルスタックエンジニア"
+        homePageDescription = "エンジニア"
         recentPosts = "新着記事"
