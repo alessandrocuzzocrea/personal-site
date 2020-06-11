@@ -1,5 +1,6 @@
 baseURL = "https://alessandrocuzzocrea.com/"
 languageCode = "en-us"
+defaultContentLanguage = "en"
 title = "Alessandro Cuzzocrea"
 enableRobotsTXT = true
 enableGitInfo = true
@@ -12,6 +13,16 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm"]
 [params]
   author = "Alessandro Cuzzocrea"
   description = "Full-Stack Software Engineer"
+  homePageDescription = "Full-Stack Software Engineer based in Tokyo"
   authorEmail = "YWxlc3NhbmRyby5jdXp6b2NyZWEyQGdtYWlsLmNvbQ=="
   authorGithub = "alessandrocuzzocrea"
   authorLinkedin = "alessandrocuzzocrea"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+  [languages.ja]
+    languageName = "Japanese"
+    [languages.ja.params]
+        description = "日本"
+        homePageDescription = "フルスタックエンジニア"
