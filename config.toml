@@ -12,8 +12,8 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm"]
 
 [params]
   author = "Alessandro Cuzzocrea"
-  description = "Full-Stack Software Engineer"
-  homePageDescription = "Full-Stack Software Engineer based in Tokyo"
+  description = "Software Engineer"
+  homePageDescription = "Software Engineer based in Tokyo"
   recentPosts = "Recent Posts"
   authorEmail = "YWxlc3NhbmRyby5jdXp6b2NyZWEyQGdtYWlsLmNvbQ=="
   authorGithub = "alessandrocuzzocrea"
@@ -25,6 +25,6 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm"]
   [languages.ja]
     languageName = "Japanese"
     [languages.ja.params]
-        description = "日本"
-        homePageDescription = "エンジニア"
+        description = "東京在住のエンジニア"
+        homePageDescription = "東京在住のエンジニア"
         recentPosts = "新着記事"
