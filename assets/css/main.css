@@ -18,6 +18,10 @@ body {
     display: inline;
 }
 
+.info > ul > li:not(:last-child)::after {
+    content: " · ";
+}
+
 h1 {
     font-size: 2.2em;
     color: #6474ED;
