@@ -10,6 +10,9 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm"]
 [permalinks]
   posts = "/:slug/"
 
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
 [params]
   author = "Alessandro Cuzzocrea"
   description = "Software Engineer"
