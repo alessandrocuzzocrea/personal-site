@@ -10,6 +10,7 @@
         <li><a href="javascript:window.location.href='mailto:'+atob('{{$.Site.Params.authorEmail}}');">Email</a></li>
         <li><a target="_blank" href="https://github.com/{{$.Site.Params.authorGithub}}" rel="noopener">GitHub</a></li>
         <li><a target="_blank" href="https://www.linkedin.com/in/{{$.Site.Params.authorLinkedin}}" rel="noopener">LinkedIn</a></li>
+        <li><a href="/projects">Projects</a></li>
     </ul>
 </div>
 <hr>
@@ -17,7 +18,7 @@
     {{ $currLanguage := (string .Site.Language) }}
     {{ $enSite := index .Sites 0 }}
     {{ $pages := .Site.RegularPages | lang.Merge $enSite.RegularPages }}
-    {{ range $pages }}
+    {{ range where $pages "Type" "post" }}
         <li>
             <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} {{ if and (not (eq (string .Language) $currLanguage)) (eq (string .Language) "en") }} (英語) {{ end }} {{.Title}}</a>
         </li>

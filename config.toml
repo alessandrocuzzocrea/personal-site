@@ -9,6 +9,7 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm"]
 
 [permalinks]
   post = "/:slug/"
+  page = "/:slug/"
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
