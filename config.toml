@@ -8,7 +8,7 @@ enableGitInfo = true
 disableKinds = ["section", "taxonomy", "taxonomyTerm"]
 
 [permalinks]
-  posts = "/:slug/"
+  post = "/:slug/"
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
