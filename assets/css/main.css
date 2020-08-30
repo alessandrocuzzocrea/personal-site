@@ -33,6 +33,10 @@ h2 {
     color: #6474ED;
 }
 
+article h2 {
+    margin-top: 2em;
+}
+
 .article-date {
     font-style: italic;
     color: #8c6e6e;
