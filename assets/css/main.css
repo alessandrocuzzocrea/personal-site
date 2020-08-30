@@ -52,6 +52,14 @@ p {
     line-height: 1.6;
 }
 
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+}
+
 @media only screen and (min-width: 800px) {
     main {
         margin: 0 auto;
@@ -60,5 +68,9 @@ p {
 
     .image-wrapper {
         text-align: center;
+    }
+
+    figure img {
+        width: 40%;
     }
 }

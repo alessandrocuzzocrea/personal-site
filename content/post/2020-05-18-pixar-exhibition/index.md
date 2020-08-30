@@ -16,6 +16,11 @@ The ticket was 1,500 yen for the early bird price and 1,800 yen for the regular 
 The Pixar Exhibition Japanese name is **Pixar no Himitsu-ten - Inochi o Umidasu Science** which roughly translates to Pixar’s Secret exhibition - The science that creates life.  
 Also please excuse me for the quality of the pictures accompanying this post. My phone camera didn’t do any justice to this wonderful exhibition.  
 
+{{< caption-figure caption="Caption placeholder" >}}
+    {{% caption-image src="placeholder2.png" alt="alt placeholder" %}}
+    {{% caption-image src="placeholder2.png" alt="alt placeholder" %}}
+{{< /caption-figure >}}
+
 ## Pixar’s Production Pipeline
 
 <!-- {{< image src="pixar-exhibition-production-pipeline.jpg" alt="" width="800" height="600">}} -->
