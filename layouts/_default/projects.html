@@ -1,9 +1,7 @@
 {{ define "main" }}
-    <article>
-        <h1>{{ .Title }}</h1>
-        <h2>{{ .Description }}</h2>
-        <div>{{ .Content }}</div>
-        <hr>
-        <a href="{{ .Site.BaseURL }}">Home</a>
-    </article>
+    <h1>{{ .Title }}</h1>
+    <h2>{{ .Description }}</h2>
+    <div>{{ .Content }}</div>
+    <hr>
+    <a href="{{ .Site.BaseURL }}">Home</a>
 {{ end }}
