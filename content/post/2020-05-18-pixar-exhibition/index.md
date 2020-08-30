@@ -7,7 +7,7 @@ description: ""
 
 ## Introduction
 
-<!-- {{< image src="pixar-exhibition-intro.jpg" alt="" width="800" height="600">}} -->
+{{< image src="pixar-exhibition-intro.jpg" alt="alt placeholder" >}}
 
 The **Pixar** exhibition I waited for has finally arrived in Japan! As a Pixar fan and 3D graphic enthusiast, I have waited for this exhibition since it was first announced in the US and now I finally got the opportunity to experience it firsthand.  
 The exhibition was held in the **Tokyo City View Observation Deck** located at the top of the **Mori Tower** in **Roppongi Hills**. The Observation Deck is a beautiful structure with a high ceiling and glass walls that extend all the way around the building, giving visitors views of the entire city. The Observation Deck is located on the 52nd floor of the Mori Tower (250 meters above sea level).  
@@ -23,13 +23,13 @@ Also please excuse me for the quality of the pictures accompanying this post. My
 
 ## Pixar’s Production Pipeline
 
-<!-- {{< image src="pixar-exhibition-production-pipeline.jpg" alt="" width="800" height="600">}} -->
+<!-- {{< image src="pixar-exhibition-production-pipeline.jpg" alt="alt placeholder" >}} -->
 
 Upon entering the exhibition floor, we were presented with a series of panels explaining in detail the production pipeline starting from the storyboard & concept art and finishing with the final render pass.
 
 ## Story & Art
 
-<!-- {{< image src="pixar-exhibition-story-and-art.jpg" alt="" width="800" height="600">}} -->
+{{< image src="pixar-exhibition-story-and-art.jpg" alt="alt placeholder" >}}
 
 This is the first and fundamental phase in which every Pixar movie starts production.
 Writers start writing the **story** that will eventually become the backbone of the whole movie.  
@@ -46,7 +46,7 @@ With real sculptures there is no cheating.
 
 ## Modeling
 
-<!-- {{< image src="pixar-exhibition-modeling.jpg" alt="" width="800" height="600">}} -->
+{{< image src="pixar-exhibition-modeling.jpg" alt="alt placeholder" >}}
 
 The next step is **modeling**, which is the process of turning a character or an object into a 3d model using dedicated computer software.  
 A 3d model is basically a collection of vertices, edges and faces used to describe the surface of the object.  
@@ -56,7 +56,7 @@ For example, the 3D model for Joy (in the pic) required 17 passes and revisions 
 
 ## Rigging
 
-<!-- {{< image src="pixar-exhibition-rigging.jpg" alt="" width="800" height="600">}} -->
+{{< image src="pixar-exhibition-rigging.jpg" alt="alt placeholder" >}}
 
 **Rigging** is the process of creating virtual joins and virtual muscles so the animators can design the character's movements.
 The rig reproduces how the joins bend, and the skin stretches around the joins.
@@ -64,7 +64,7 @@ Think of the rig like the skeleton for the 3d model. You move the skeleton and t
 
 ## Surfaces
 
-<!-- {{< image src="pixar-exhibition-surfaces.jpg" alt="" width="800" height="600">}} -->
+{{< image src="pixar-exhibition-surfaces.jpg" alt="alt placeholder" >}}
 
 Surface artists create **surface shaders**, computer programs used to give the 3d model’s surfaces their rendered look.  
 For example, shaders are used to make the surface appear opaque, reflective, translucent, smooth, rough, etc.  
@@ -72,7 +72,7 @@ Surface details like a character skin, hair, clothes colors, and patterns, textu
 
 ## Set & Camera
 
-<!-- {{< image src="pixar-exhibition-sets-and-cameras.jpg" alt="" width="800" height="600">}} -->
+{{< image src="pixar-exhibition-sets-and-cameras.jpg" alt="alt placeholder" >}}
 
 **Virtual sets** are the environments where the movie story will unfold.  
 Virtual sets are created by set designers just like architects would design a physical environment.  
@@ -82,7 +82,7 @@ Rough camera movements and camera angles are finalized in this step.
 
 ## Animation
 
-<!-- {{< image src="pixar-exhibition-animation.jpg" alt="" width="800" height="600">}} -->
+{{< image src="pixar-exhibition-animation.jpg" alt="alt placeholder" >}}
 
 **Animation** breathes life into the movie.  
 Our characters would be lifeless without animations.  
@@ -92,7 +92,7 @@ Animators set the poses for the keyframes and the animation software will help w
 
 ## Simulation
 
-<!-- {{< image src="pixar-exhibition-simulation.jpg" alt="" width="800" height="600">}} -->
+{{< image src="pixar-exhibition-simulation.jpg" alt="alt placeholder" >}}
 
 Some animations and effects are too hard or time-consuming to be authored by hand.  
 This is the perfect use case for **simulation**. We can just let the computer do the hard work for us.  
@@ -101,7 +101,7 @@ Simulations with a higher degree of realism require a higher computation time.
 
 ## Lighting
 
-<!-- {{< image src="pixar-exhibition-lighting.jpg" alt="" width="800" height="600">}} -->
+{{< image src="pixar-exhibition-lighting.jpg" alt="alt placeholder" >}}
 
 **Lighting** is crucial for setting the mood of the shoot.  
 Lighting designers carefully craft virtual lights inside a virtual set to help bring the scene to life. Different lighting setups can drastically change the mood of the scene.  
@@ -110,7 +110,7 @@ Since the calculations needed for such lights can be really computationally expe
 
 ## Rendering
 
-<!-- {{< image src="pixar-exhibition-rendering.jpg" alt="" width="800" height="600">}} -->
+{{< image src="pixar-exhibition-rendering.jpg" alt="alt placeholder" >}}
 
 **Rendering** is the process of creating a 2D image using all the data we prepared in the previous steps. The resulting image is the sum of all the previous activities in the pipeline.  
 During the rendering process, the computer calculates the color of every single pixel composing the final image.  
