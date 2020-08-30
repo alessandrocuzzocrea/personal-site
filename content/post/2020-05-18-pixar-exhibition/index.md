@@ -16,14 +16,9 @@ The ticket was 1,500 yen for the early bird price and 1,800 yen for the regular 
 The Pixar Exhibition Japanese name is **Pixar no Himitsu-ten - Inochi o Umidasu Science** which roughly translates to Pixar’s Secret exhibition - The science that creates life.  
 Also please excuse me for the quality of the pictures accompanying this post. My phone camera didn’t do any justice to this wonderful exhibition.  
 
-{{< caption-figure caption="Caption placeholder" >}}
-    {{% caption-image src="placeholder2.png" alt="alt placeholder" %}}
-    {{% caption-image src="placeholder2.png" alt="alt placeholder" %}}
-{{< /caption-figure >}}
-
 ## Pixar’s Production Pipeline
 
-<!-- {{< image src="pixar-exhibition-production-pipeline.jpg" alt="alt placeholder" >}} -->
+{{< image src="pixar-exhibition-production-pipeline.jpg" alt="alt placeholder" >}}
 
 Upon entering the exhibition floor, we were presented with a series of panels explaining in detail the production pipeline starting from the storyboard & concept art and finishing with the final render pass.
 
@@ -39,10 +34,29 @@ The **scenario**, also known as **movie script**, is a written document detailin
 A **storyboard** is also created in the process. A storyboard is like a blueprint for the movie.
 Creating a storyboard is like creating a rough sketch before starting a painting. It helps visualize, explore, and plan the work ahead. A storyboard usually contains sketches but it may also contain reference images or other kinds of information like the textual description of the scene. A storyboard complements the scenario and helps add a visual dimension to it.  
 
+{{< caption-figure caption="A storyboard drawing (Inside Out)" >}}
+    {{% caption-image src="pixar-exhibition-story-and-art-storyboard-inside-out.jpg" alt="A storyboard drawing (Inside Out)" %}}
+{{< /caption-figure >}}
+
 **Concept art** instead is a collection of drawings used to capture the essence and vision of a movie. It’s commonly used to have a quick visual representation of the movie before committing to it any further. The purpose of concept art is not to produce high-quality artworks but instead to quickly explore ideas for the movie. Concept art helps visualize the look and feel of the movie providing a strong reference point to help the other artists working on the movie.  
+
+{{< caption-figure caption="Concept art for Toy Story 3 and Brave" >}}
+    {{% caption-image src="pixar-exhibition-story-and-art-concept-art-toy-story-3.jpg" alt="alt placeholder" %}}
+    {{% caption-image src="pixar-exhibition-story-and-art-concept-art-brave.jpg" alt="alt placeholder" %}}
+{{< /caption-figure >}}
 
 **Clay sculptures** are also created to visualize the design. Creating real sculpture is a way to check if the design created with a two-dimensional drawing still works when transferred to a tri-dimensional world. This is better done with objects in the real world since sometimes the 3d perspective displayed by 3d software may be deceptive to the eyes (since the software had to display the image on a 2d screen).  
 With real sculptures there is no cheating.  
+
+{{< caption-figure caption="Reproductions of clay sculptures (Joy & Anger from Inside Out)" >}}
+    {{% caption-image src="pixar-exhibition-story-and-art-sculptures-joy.jpg" alt="Clay sculpture reproduction (Joy from Inside Out)" %}}
+    {{% caption-image src="pixar-exhibition-story-and-art-sculptures-anger.jpg" alt="Clay sculpture reproduction (Anger from Inside Out)" %}}
+{{< /caption-figure >}}
+
+{{< caption-figure caption="Resin casts (Remy from Ratatouille & Heimlich from A Bug's Life)" >}}
+    {{% caption-image src="pixar-exhibition-story-and-art-sculptures-resin-casts-ratatouille-remy.jpg" alt="Resin casts (Remy form Ratatouille)" %}}
+    {{% caption-image src="pixar-exhibition-story-and-art-sculptures-resin-a-bug-s-life-heimlich.jpg" alt="Resin casts (Heimlich from A Bug's Life)" %}}
+{{< /caption-figure >}}
 
 ## Modeling
 
@@ -53,6 +67,14 @@ A 3d model is basically a collection of vertices, edges and faces used to descri
 The resulting 3D model will be more or less detailed depending on the complexity of the subject we are modeling.  
 Since character models are so important, modelers need to take special care when creating them.
 For example, the 3D model for Joy (in the pic) required 17 passes and revisions before it was considered finally completed.  
+
+{{< caption-figure caption="Lotso from sculpture to 3D model" >}}
+    {{% caption-image src="pixar-exhibition-story-and-art-sculptures-lotso.jpg" alt="Lotso from sculpture to 3D model" %}}
+{{< /caption-figure >}}
+
+{{< caption-figure caption="Modeling interactive exhibit" >}}
+    {{% caption-image src="pixar-exhibition-modeling-interactive-exhibit.jpg" alt="Modeling interactive exhibit" %}}
+{{< /caption-figure >}}
 
 ## Rigging
 
