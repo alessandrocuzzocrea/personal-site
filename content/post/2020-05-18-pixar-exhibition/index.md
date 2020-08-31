@@ -84,6 +84,15 @@ For example, the 3D model for Joy (in the pic) required 17 passes and revisions 
 The rig reproduces how the joins bend, and the skin stretches around the joins.
 Think of the rig like the skeleton for the 3d model. You move the skeleton and the model moves with it.
 
+{{< caption-figure caption="Demonstration of how a rig is used to animate a character model" >}}
+    {{% caption-image src="pixar-exhibition-rigging-sulley-rig-1.jpg" alt="Sulley rig 1" %}}
+    {{% caption-image src="pixar-exhibition-rigging-sulley-rig-2.jpg" alt="Sulley rig 2" %}}
+{{< /caption-figure >}}
+
+{{< caption-figure caption="Interactive exhibit demonstrating how a face rig works" >}}
+    {{% caption-image src="pixar-exhibition-rigging-jessie-face-rig.jpg" alt="Jessie face rig" %}}
+{{< /caption-figure >}}
+
 ## Surfaces
 
 {{< image src="pixar-exhibition-surfaces.jpg" alt="alt placeholder" >}}
@@ -91,6 +100,15 @@ Think of the rig like the skeleton for the 3d model. You move the skeleton and t
 Surface artists create **surface shaders**, computer programs used to give the 3d model’s surfaces their rendered look.  
 For example, shaders are used to make the surface appear opaque, reflective, translucent, smooth, rough, etc.  
 Surface details like a character skin, hair, clothes colors, and patterns, textures are also reproduced using shaders.  
+
+{{< caption-figure caption="Changing an object surface shader" >}}
+    {{% caption-image src="pixar-exhibition-surfaces-materials-interactive-exhibit.jpg" alt="Materials interactive exhibit" %}}
+{{< /caption-figure >}}
+
+{{< caption-figure caption="Demonstration of how textures work using cloth" >}}
+    {{% caption-image src="pixar-exhibition-surfaces-materials-texture-mapping-1.jpg" alt="Texture mapping example 1" %}}
+    {{% caption-image src="pixar-exhibition-surfaces-materials-texture-mapping-2.jpg" alt="Texture mapping example 2" %}}
+{{< /caption-figure >}}
 
 ## Set & Camera
 
@@ -102,6 +120,10 @@ Every element in the set is either modeled by hand (like you would model a chara
 Virtual cameras are just like real cameras, and camera artists determine the best combinations of light, perspective, lens, movement, and composition to enrich the story.  
 Rough camera movements and camera angles are finalized in this step.  
 
+{{< caption-figure caption="Designing a virtual set" >}}
+    {{% caption-image src="pixar-exhibition-set-camera-virtual-set.jpg" alt="Virtual set interactive exhibit" %}}
+{{< /caption-figure >}}
+
 ## Animation
 
 {{< image src="pixar-exhibition-animation.jpg" alt="alt placeholder" >}}
@@ -112,6 +134,10 @@ Animations are divided into a sequence of poses called keyframes.
 The animators animate the 3d model using the rig created in the previous step of the pipeline, posing the characters to perform their virtual acting.  
 Animators set the poses for the keyframes and the animation software will help with the interpolation calculating how the object should move in between keyframes.  
 
+{{< caption-figure caption="Creating a simple stop motion animation with Luxo, Jr." >}}
+    {{% caption-image src="pixar-exhibition-animation-stop-motion-luxo-jr.jpg" alt="Animation stop motion interactive exhibit Luxo, Jr." %}}
+{{< /caption-figure >}}
+
 ## Simulation
 
 {{< image src="pixar-exhibition-simulation.jpg" alt="alt placeholder" >}}
@@ -120,6 +146,16 @@ Some animations and effects are too hard or time-consuming to be authored by han
 This is the perfect use case for **simulation**. We can just let the computer do the hard work for us.  
 Using complex algorithms is it possible to calculate realistically how particles and other effects like water, fire, smoke, hair, cloth movements would interact with the character movements and the environment.  
 Simulations with a higher degree of realism require a higher computation time.  
+
+{{< caption-figure caption="Simulating grass and a school of fish" >}}
+    {{% caption-image src="pixar-exhibition-simulation-grass.jpg" alt="Simulation of grass" %}}
+    {{% caption-image src="pixar-exhibition-simulation-school-of-fish.jpg" alt="Simulation of a school of fish" %}}
+{{< /caption-figure >}}
+
+{{< caption-figure caption="Simulating Merida curly hair turned out to be a a challenge for Pixar. They ended up modeling the simulation after coil springs" >}}
+    {{% caption-image src="pixar-exhibition-simulation-merida-hair-1.jpg" alt="Merida hair simulation 1" %}}
+    {{% caption-image src="pixar-exhibition-simulation-merida-hair-2.jpg" alt="Merida hair simulation 2" %}}
+{{< /caption-figure >}}
 
 ## Lighting
 
