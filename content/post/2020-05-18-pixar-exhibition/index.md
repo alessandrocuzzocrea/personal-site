@@ -166,6 +166,16 @@ Lighting designers carefully craft virtual lights inside a virtual set to help b
 The lighting setup is the sum of all the lights affecting the scene.  
 Since the calculations needed for such lights can be really computationally expensive, the light rendering quality used while working on a scene is a fast approximation. The final render will use a higher quality setting.  
 
+{{< caption-figure caption="Interactive exhibit explaining how computers render realistic lighting" >}}
+    {{% caption-image src="pixar-exhibition-lighting-computer-1.jpg" alt="Interactive exhibit explaining how computers render realistic lighting 1" %}}
+    {{% caption-image src="pixar-exhibition-lighting-computer-2.jpg" alt="Interactive exhibit explaining how computers render realistic lighting 2" %}}
+{{< /caption-figure >}}
+
+{{< caption-figure caption="Dory from Finding Nemo seen under different lighting conditions" >}}
+    {{% caption-image src="pixar-exhibition-lighting-dory-1.jpg" alt="Dory from Finding Nemo seen under different lighting conditions (blue)" %}}
+    {{% caption-image src="pixar-exhibition-lighting-dory-2.jpg" alt="Dory from Finding Nemo seen under different lighting conditions (red)" %}}
+{{< /caption-figure >}}
+
 ## Rendering
 
 {{< image src="pixar-exhibition-rendering.jpg" alt="alt placeholder" >}}
@@ -173,6 +183,11 @@ Since the calculations needed for such lights can be really computationally expe
 **Rendering** is the process of creating a 2D image using all the data we prepared in the previous steps. The resulting image is the sum of all the previous activities in the pipeline.  
 During the rendering process, the computer calculates the color of every single pixel composing the final image.  
 Model geometry, model count, surfaces, lighting, simulations, quality settings, image resolution, frame count, etc, are all factors that influence the rendering time. The higher the complexity, the longer the rendering time will be. For example, that frame of Joy waving at the train took 33 hours to fully render.  
+
+{{< caption-figure caption="From wireframe to rendered image" >}}
+    {{% caption-image src="pixar-exhibition-rendering-1.jpg" alt="Wireframe" %}}
+    {{% caption-image src="pixar-exhibition-rendering-2.jpg" alt="Rendered image" %}}
+{{< /caption-figure >}}
 
 ## Conclusions
 
