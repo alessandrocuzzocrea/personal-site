@@ -191,5 +191,5 @@ Model geometry, model count, surfaces, lighting, simulations, quality settings, 
 
 ## Conclusions
 
-I really enjoyed this exhibition. It really makes you appreciate how much hours and care Pixar puts into every single movie they produce. I really like 3D animation cause it’s the perfect intersection between art and science.  
+I really enjoyed this exhibition. It really makes you appreciate how much hours and care Pixar puts into every single movie they produce. I really like 3D animation because it’s the perfect intersection between art and science.  
 I wish I could have gone back there on a less crowded day to explore more every single interactive exhibit.
