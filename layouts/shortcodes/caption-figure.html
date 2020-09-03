@@ -1,4 +1,4 @@
 <figure>
     {{ .Inner }}
-    <figcaption>{{.Get "caption" }}</figcaption>
+    <figcaption>{{.Get "caption" | markdownify }}</figcaption>
 </figure>
