@@ -33,6 +33,10 @@ h2 {
     color: #6474ED;
 }
 
+article h2 {
+    margin-top: 2em;
+}
+
 .article-date {
     font-style: italic;
     color: #8c6e6e;
@@ -52,6 +56,18 @@ p {
     line-height: 1.6;
 }
 
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    margin-top: 1em;
+}
+
 @media only screen and (min-width: 800px) {
     main {
         margin: 0 auto;
@@ -60,5 +76,9 @@ p {
 
     .image-wrapper {
         text-align: center;
+    }
+
+    figure img {
+        width: 40%;
     }
 }
