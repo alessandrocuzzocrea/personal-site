@@ -3,6 +3,7 @@ title: “The Science Behind Pixar” Exhibition in Roppongi Hills
 slug: "pixar-exhibition"
 date: "2019-05-18"
 description: "The Pixar exhibition I waited for has arrived in Japan! As a Pixar fan and 3D graphics enthusiast, I’ve waited for this exhibition since it was first announced in the US and am excited to finally get the opportunity to experience it firsthand."
+og_image: pixar-exhibition-intro.jpg
 ---
 
 ## Introduction
