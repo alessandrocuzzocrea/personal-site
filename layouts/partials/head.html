@@ -37,7 +37,7 @@
     {{ end }}
     {{ end }}
 
-    {{ $style := resources.Get "css/main.css" | minify | fingerprint }}
+    {{ $style := resources.Get "css/main.scss" | resources.ToCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 
     <!-- Structured Data -->
