@@ -80,6 +80,16 @@ figcaption {
     margin-top: 1em;
 }
 
+#projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    div {
+        margin-bottom: 10px;
+    }
+}
+
 @media only screen and (min-width: 800px) {
     main {
         margin: 0 auto;
