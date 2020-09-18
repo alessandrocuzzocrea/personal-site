@@ -23,6 +23,21 @@
     {{ else }}
         <meta property="og:image" content="{{ "/images/profile_og.jpg" | absURL }}">
     {{ end -}}
+
+    <!-- twitter card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@alessandrocuzz" />
+    <meta name="twitter:title" content="{{ .Title }}" />
+    <meta name="twitter:description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+    {{ if .Params.og_image -}}
+        {{- $path := .Permalink -}}
+        {{- $file := .Params.og_image -}}
+        {{- $url := print $path $file -}}
+        <meta name="twitter:image" content="{{ $url }}" />
+    {{ else }}
+        <meta name="twitter:image" content="{{ "/images/profile_og.jpg" | absURL }}" />
+    {{ end -}}
+
     <title>{{ .Title }}</title>
     <link rel="canonical" href="{{ .Permalink }}"/>
     <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
