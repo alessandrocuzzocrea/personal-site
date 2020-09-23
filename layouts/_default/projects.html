@@ -3,5 +3,5 @@
     <h2>{{ .Description }}</h2>
     <div>{{ .Content }}</div>
     <hr>
-    <a href="{{ .Site.BaseURL }}">Home</a>
+    <a href="{{ .Site.BaseURL | relLangURL }}">Home</a>
 {{ end }}
