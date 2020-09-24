@@ -22,6 +22,7 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm"]
   authorEmail = "YWxlc3NhbmRyby5jdXp6b2NyZWEyQGdtYWlsLmNvbQ=="
   authorGithub = "alessandrocuzzocrea"
   authorLinkedin = "alessandrocuzzocrea"
+  twitter = "alessacrea"
 
 [languages]
   [languages.en]
