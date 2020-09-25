@@ -26,7 +26,7 @@
 
     <!-- twitter card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@alessandrocuzz" />
+    <meta name="twitter:site" content="@{{$.Site.Params.twitter}}" />
     <meta name="twitter:title" content="{{ .Title }}" />
     <meta name="twitter:description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
     {{ if .Params.og_image -}}
