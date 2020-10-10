@@ -2,7 +2,7 @@
     <article>
         <h1>{{ .Title }}</h1>
         <div class="article-date">{{ .Date.Format "2006-01-02" }}</div>
-        <div>{{ .Content }}</div>
+        <div id="article-content">{{ .Content }}</div>
         <hr>
         <a href="{{ .Site.BaseURL }}">Home</a>
     </article>
