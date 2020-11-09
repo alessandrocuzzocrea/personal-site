@@ -14,14 +14,18 @@
         <li><a href="{{ "/projects/" | relLangURL }}">Projects</a></li>
     </ul>
 </div>
-<hr>
-<div>{{$.Site.Params.recentPosts}}</div>
+<!-- <hr> -->
+<div id="home-recent-posts">
+    <p>{{$.Site.Params.recentPosts}}</p>
     {{ $currLanguage := (string .Site.Language) }}
     {{ $enSite := index .Sites 0 }}
     {{ $pages := .Site.RegularPages | lang.Merge $enSite.RegularPages }}
+    <ul>
     {{ range where $pages "Type" "post" }}
         <li>
             <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} {{ if and (not (eq (string .Language) $currLanguage)) (eq (string .Language) "en") }} (英語) {{ end }} {{.Title}}</a>
         </li>
     {{ end }}
+    </ul>
+</div>
 {{ end }}
