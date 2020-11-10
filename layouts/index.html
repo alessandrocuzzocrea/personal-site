@@ -28,7 +28,7 @@
             <li>{{ $year }}</li>
         {{ end }}
         <li class="article-link">
-            <a href="{{.Permalink}}">{{ if and (not (eq (string .Language) $currLanguage)) (eq (string .Language) "en") }} (英語) {{ end }} {{.Title}}</a>
+            <a href="{{.Permalink}}">{{ if and (not (eq (string .Language) $currLanguage)) (eq (string .Language) "en") }} {{ end }} {{.Title}} </a>
         </li>
     {{ end }}
     </ul>
