@@ -21,8 +21,16 @@ a {
     text-decoration: none;
 }
 
+hr {
+    border: none;
+    background-color: $light-scheme-text-color;
+    opacity: 0.1;
+    height: 1px;
+}
+
 .info {
     text-align: center;
+    margin-bottom: 2em;
 }
 
 .info ul {
@@ -81,6 +89,11 @@ img.profile {
     ul {
         padding: 0;
         list-style-type: none;
+
+        .article-link {
+            list-style-type: square;
+            margin-left: 2em;
+        }
     }
 
     li {

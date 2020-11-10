@@ -21,9 +21,14 @@
     {{ $enSite := index .Sites 0 }}
     {{ $pages := .Site.RegularPages | lang.Merge $enSite.RegularPages }}
     <ul>
+    {{ $year := 0 }}
     {{ range where $pages "Type" "post" }}
-        <li>
-            <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} {{ if and (not (eq (string .Language) $currLanguage)) (eq (string .Language) "en") }} (英語) {{ end }} {{.Title}}</a>
+        {{ if not (eq (.Date.Format "2006") $year) }}
+            {{ $year = .Date.Format "2006" }}
+            <li>{{ $year }}</li>
+        {{ end }}
+        <li class="article-link">
+            <a href="{{.Permalink}}">{{ if and (not (eq (string .Language) $currLanguage)) (eq (string .Language) "en") }} (英語) {{ end }} {{.Title}}</a>
         </li>
     {{ end }}
     </ul>
