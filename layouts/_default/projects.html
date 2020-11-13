@@ -4,5 +4,5 @@
     <!-- <h2>{{ .Description }}</h2> -->
     <div>{{ .Content }}</div>
     <!-- <hr> -->
-    <a href="{{ .Site.BaseURL | relLangURL }}">Home</a>
+    {{ partial "footer.html" . }}
 {{ end }}

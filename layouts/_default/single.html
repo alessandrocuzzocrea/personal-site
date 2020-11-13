@@ -5,6 +5,6 @@
         <div class="article-date">{{ .Date.Format "January 2, 2006" }}</div>
         <div id="article-content">{{ .Content }}</div>
         <!-- <hr> -->
-        <a href="{{ .Site.BaseURL }}">Home</a>
+        {{ partial "footer.html" . }}
     </article>
 {{ end }}
