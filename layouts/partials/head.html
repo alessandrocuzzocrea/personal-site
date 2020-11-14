@@ -56,9 +56,6 @@
     {{ end }}
     {{ end }}
 
-    {{ $style := resources.Get "css/main.scss" | resources.ToCSS | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
-
     <!-- Structured Data -->
     <script type="application/ld+json">
         {
@@ -76,4 +73,8 @@
             ]
         }
     </script>
+
+    {{ with resources.Get "css/main.scss" | toCSS | minify }}
+        <style>{{ .Content | safeCSS }}</style>
+    {{ end }}
 </head>
