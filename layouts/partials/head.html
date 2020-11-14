@@ -74,7 +74,7 @@
         }
     </script>
 
-    {{ with resources.Get "css/main.scss" | toCSS | minify }}
+    {{ with resources.Get "scss/main.scss" | toCSS | minify }}
         <style>{{ .Content | safeCSS }}</style>
     {{ end }}
 </head>
