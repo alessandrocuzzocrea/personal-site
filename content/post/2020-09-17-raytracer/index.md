@@ -2,7 +2,7 @@
 title: "How I Made A Ray Tracer"
 slug: how-i-made-a-ray-tracer
 date: 2020-09-17
-description: "INSERT_DESC"
+description: "Starting this year, I decided to dedicate some of my spare time to a few personal projects I never got around to actually doing due to various circumstances. The goal of this particular project is to be able to create a simple ray tracer software tool that will be able to produce some cool images."
 og_image: og_image.jpg
 og_image_width: 1200
 og_image_height: 1200
