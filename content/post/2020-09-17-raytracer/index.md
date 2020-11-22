@@ -10,7 +10,7 @@ og_image_height: 1200
 
 ## Intro
 
-{{< image src="ray-tracer-final-render.jpg" alt="" width="1440" height="810">}}
+{{< image src="ray-tracer-final-render.jpg" alt="Ray tracer final render" width="1440" height="810">}}
 
 Starting this year, I decided to dedicate some of my spare time to a few personal projects I never got around to actually doing due to various circumstances.
 
@@ -153,7 +153,7 @@ When people explain ray tracing, they usually make an analogy about how real-wor
 The sensor then captures the color of the light and the camera produces the final image file.
 
 {{< caption-figure caption="A ray of light reflecting off an object and reaching the sensor inside the camera" >}}
-    {{% caption-image src="illustration1.jpg" alt="alt1" type="big" width="1440" height="810" %}}
+    {{% caption-image src="a-ray-of-light-reflecting-off-an-object-and-reaching-the-sensor-inside-the-camera.jpg" alt="A ray of light reflecting off an object and reaching the sensor inside the camera" type="big" width="1440" height="810" %}}
 {{< /caption-figure >}}
 
 Ray tracing works almost the same way as a real-life camera, only instead of a sensor, we have an [image plane](https://en.wikipedia.org/wiki/Image_plane).
@@ -174,7 +174,7 @@ If they do, we just need to color our pixels based on the intersected objects.
 For example, if the ray intersects a red cube, you can consider that pixel to be colored red in the final image.
 
 {{< caption-figure caption="A ray shoots from the point of view through the image plane" >}}
-    {{% caption-image src="illustration2.jpg" alt="alt2" type="big" width="1440" height="810" %}}
+    {{% caption-image src="a-ray-shoots-from-the-point-of-view-through-the-image-plane.jpg" alt="A ray shoots from the point of view through the image plane" type="big" width="1440" height="810" %}}
 {{< /caption-figure >}}
 
 It's just like a real camera would work, except that the image plane is placed in front of the point of view while the camera's sensor or film is behind the lens.
@@ -187,7 +187,7 @@ Different algorithms have different degrees of efficiency and sophistication.
 One of the easier ones to understand and implement is the ray-sphere intersection algorithm (this is why a lot of pictures produced with ray tracers have spheres on them).
 
 {{< caption-figure caption="We can tell where a ray will intersect with a sphere using the ray-sphere intersection algorithm" >}}
-    {{% caption-image src="illustration3.jpg" alt="alt3" type="big" width="1440" height="810" %}}
+    {{% caption-image src="we-can-tell-where-a-ray-will-intersect-with-a-sphere-using-the-ray-sphere-intersection-algorithm.jpg" alt="We can tell where a ray will intersect with a sphere using the ray-sphere intersection algorithm" type="big" width="1440" height="810" %}}
 {{< /caption-figure >}}
 
 However, there's so much more we can do with our ray tracer other than just shading each pixel with the local color of the objects from the scene.
@@ -201,7 +201,7 @@ From that point, we can trace another ray (sometimes called a *shadow ray* or *i
 If this shadow ray hits an object along the way before reaching the light source, we can conclude that this object would block the light, thereby casting a shadow on the point from which the shadow ray is generated.
 
 {{< caption-figure caption="Same scene without (left) and with (right) illumination enabled" >}}
-    {{% caption-image src="illustration4.jpg" alt="alt4" type="big" width="1440" height="810" %}}
+    {{% caption-image src="same-scene-without-and-with-illumination-enabled.jpg" alt="Same scene without (left) and with (right) illumination enabled" type="big" width="1440" height="810" %}}
 {{< /caption-figure >}}
 
 Now that we have shadows, wouldn't be nice to have a nice flat plane to casting shadows onto?
@@ -213,7 +213,7 @@ It looks like a regular [texture](https://en.wikipedia.org/wiki/Texture_mapping)
 Last but not least, I added [anti-aliasing](https://en.wikipedia.org/wiki/Spatial_anti-aliasing), also known as AA, to make everything look a little smoother.
 
 {{< caption-figure caption="AA OFF (left) vs. AA ON (right)" >}}
-    {{% caption-image src="illustration5.jpg" alt="alt5" type="big" width="1440" height="810" %}}
+    {{% caption-image src="aa-off-vs-aa-on.jpg" alt="AA OFF (left) vs. AA ON (right)" type="big" width="1440" height="810" %}}
 {{< /caption-figure >}}
 
 ## The Development Environment
