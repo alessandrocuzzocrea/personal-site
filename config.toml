@@ -34,4 +34,4 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm"]
         description = "東京在住のエンジニア"
         homePageDescription = "東京在住のエンジニア"
         recentPosts = "新着記事"
-        projects = "プロジェクト"
+        projects = "Projects"
