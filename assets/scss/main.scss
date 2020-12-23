@@ -122,6 +122,7 @@ figcaption {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     grid-gap: 1.8rem;
+    row-gap: 2.6rem;
 }
 
 header {
