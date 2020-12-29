@@ -3,7 +3,6 @@
     <h1>{{ .Title }}</h1>
     <!-- <h2>{{ .Description }}</h2> -->
     <div>{{ .Content }}</div>
-    <!-- <hr> -->
     <div id="projects-container">
         <div>
             <h3>Symbols</h3>
@@ -59,5 +58,6 @@
             <p>{{ ( index ( index $.Site.Data.translations (string .Site.Language)) "yggdrasil-description" ) }}</p>
             <a target="_blank" href="https://rex64.itch.io/ld48-30" rel="noopener" style="margin-right: 0.6em;">{{ ( index $.Site.Data.translations (string .Site.Language)).site }}</a>
         </div>
-    </div>    
+    </div>
+    {{ partial "footer.html" . }}
 {{ end }}
