@@ -1,2 +1,4 @@
 User-agent: *
+Disallow: /symbols-privacy-policy/
+Allow: /
 Sitemap: http://alessandrocuzzocrea.com/sitemap.xml
