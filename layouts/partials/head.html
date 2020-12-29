@@ -2,7 +2,11 @@
     <meta name="title" content="{{ .Title }}">
     <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
     <meta name="keywords" content="alessandro, cuzzocrea, software, engineer, tokyo, japan">
+    {{ if .Params.noindex }}
+    <meta name="robots" content="noindex" />
+    {{ else }}
     <meta name="robots" content="index, follow">
+    {{ end }}
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
     <meta name="author" content="Alessandro Cuzzocrea">
