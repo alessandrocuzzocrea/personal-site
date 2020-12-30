@@ -7,6 +7,6 @@
     "chip-8-emulator-js-description": "CHIP-8 emulator written in Javascript.",
     "year-in-pixels-react-description": "Keep track of how you felt during the year. React app I made for learning purposes. Unit testing with Jest.",
     "tic-tac-toe-ai-description": "AI program that plays Tic-tac-toe against a human adversary using classic techniques like Minimax and Alpha-beta pruning. Written in C++.",
-    "software-renderer-description": "Simple but functional software rasterizer written in C++.",
+    "software-renderer-description": "Simple but functional CPU rasterizer written in C++.",
     "yggdrasil-description": "Game made in 48 hours for the Ludum Dare 30 game jam. Theme: Connected Worlds."
 }
