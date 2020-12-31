@@ -23,6 +23,7 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm"]
   authorGithub = "alessandrocuzzocrea"
   authorLinkedin = "alessandrocuzzocrea"
   twitter = "alessacrea"
+  projects = "Projects"
 
 [languages]
   [languages.en]
@@ -33,3 +34,4 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm"]
         description = "東京在住のエンジニア"
         homePageDescription = "東京在住のエンジニア"
         recentPosts = "新着記事"
+        projects = "Projects"
