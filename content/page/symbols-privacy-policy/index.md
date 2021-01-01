@@ -3,7 +3,7 @@ title: "Symbols - Privacy Policy"
 slug: "symbols-privacy-policy"
 description: "Symbols game privacy policy page"
 type: "page"
-layout: "projects"
+layout: "page"
 noindex: true
 ---
 
