@@ -1,26 +1,24 @@
 {{ define "main" }}
     {{ partial "header.html" . }}
     <h1>{{ .Title }}</h1>
-    <!-- <h2>{{ .Description }}</h2> -->
-    <div>{{ .Content }}</div>
     <div id="projects-container">
         <div>
             <h3>Symbols</h3>
-            <img src="symbols.png" width="220" height="80">
+            <img src="symbols.png" width="220" height="80" alt="Symbols project banner">
             <p>{{ ( index ( index $.Site.Data.translations (string .Site.Language)) "symbols-description" ) }}</p>
             <a target="_blank" href="https://apps.apple.com/us/app/symbols-alessandro-cuzzocrea/id1544707111" rel="noopener" style="margin-right: 0.6em;">App Store</a>
             <a target="_blank" href="https://github.com/alessandrocuzzocrea/symbols" rel="noopener" style="margin-right: 0.6em;">GitHub</a>
         </div>
         <div>
             <h3>Loopy Boy</h3>
-            <img src="loopy-boy-ld-47.png" width="220" height="80">
+            <img src="loopy-boy-ld-47.png" width="220" height="80" alt="Loopy Boy project banner">
             <p>{{ ( index ( index $.Site.Data.translations (string .Site.Language)) "loopy-boy-description" ) }}</p>
             <a target="_blank" href="https://rex64.itch.io/loopy-boy" rel="noopener" style="margin-right: 0.6em;">{{ ( index $.Site.Data.translations (string .Site.Language)).site }}</a>
             <a target="_blank" href="https://github.com/alessandrocuzzocrea/ld-47-stuck-in-a-loop" rel="noopener" style="margin-right: 0.6em;">GitHub</a>
         </div>
         <div>
             <h3>raytracer-ts</h3>
-            <img src="raytracer-ts.png" width="220" height="80">
+            <img src="raytracer-ts.png" width="220" height="80" alt="raytracer-ts project banner">
             <p>{{ ( index ( index $.Site.Data.translations (string .Site.Language)) "raytracer-ts-description" ) }}</p>
             <a href="https://alessandrocuzzocrea.com/how-i-made-a-ray-tracer/" style="margin-right: 0.6em;">{{ ( index $.Site.Data.translations (string .Site.Language)).article }}</a>
             <a target="_blank" href="https://alessandrocuzzocrea.github.io/raytracer-ts/" rel="noopener" style="margin-right: 0.6em;">{{ ( index $.Site.Data.translations (string .Site.Language)).site }}</a>
@@ -28,33 +26,33 @@
         </div>
         <div>
             <h3>chip-8-emulator-js</h3>
-            <img src="chip-8-emulator-js.png" width="220" height="80">
+            <img src="chip-8-emulator-js.png" width="220" height="80" alt="chip-8-emulator-js project banner">
             <p>{{ ( index ( index $.Site.Data.translations (string .Site.Language)) "chip-8-emulator-js-description" ) }}</p>
             <a target="_blank" href="https://alessandrocuzzocrea.github.io/chip-8-emulator-js/" rel="noopener" style="margin-right: 0.6em;">{{ ( index $.Site.Data.translations (string .Site.Language)).site }}</a>
             <a target="_blank" href="https://github.com/alessandrocuzzocrea/chip-8-emulator-js/" rel="noopener" style="margin-right: 0.6em;">GitHub</a>
         </div>
         <div>
             <h3>year-in-pixels-react</h3>
-            <img src="year-in-pixels-react.png" width="220" height="80">
+            <img src="year-in-pixels-react.png" width="220" height="80" alt="Symbols project banner">
             <p>{{ ( index ( index $.Site.Data.translations (string .Site.Language)) "year-in-pixels-react-description" ) }}</p>
             <a target="_blank" href="https://alessandrocuzzocrea.github.io/year-in-pixels-react/" rel="noopener" style="margin-right: 0.6em;">{{ ( index $.Site.Data.translations (string .Site.Language)).site }}</a>
             <a target="_blank" href="https://github.com/alessandrocuzzocrea/year-in-pixels-react/" rel="noopener" style="margin-right: 0.6em;">GitHub</a>
         </div>
         <div>
             <h3>tic-tac-toe-ai</h3>
-            <img src="tic-tac-toe-ai.png" width="220" height="80">
+            <img src="tic-tac-toe-ai.png" width="220" height="80" alt="tic-tac-toe-ai project banner">
             <p>{{ ( index ( index $.Site.Data.translations (string .Site.Language)) "tic-tac-toe-ai-description" ) }}</p>
             <a target="_blank" href="https://github.com/alessandrocuzzocrea/tic-tac-toe-ai/" rel="noopener" style="margin-right: 0.6em;">GitHub</a>
         </div>
         <div>
             <h3>software-renderer</h3>
-            <img src="software-renderer.png" width="220" height="80">
+            <img src="software-renderer.png" width="220" height="80" alt="software-renderer project banner">
             <p>{{ ( index ( index $.Site.Data.translations (string .Site.Language)) "software-renderer-description" ) }}</p>
             <a target="_blank" href="https://github.com/alessandrocuzzocrea/software-renderer/" rel="noopener" style="margin-right: 0.6em;">GitHub</a>
         </div>
         <div>
             <h3>Yggdrasil</h3>
-            <img src="ld48-30-yggdrasil.png" width="220" height="80">
+            <img src="ld48-30-yggdrasil.png" width="220" height="80" alt="Yggdrasil project banner">
             <p>{{ ( index ( index $.Site.Data.translations (string .Site.Language)) "yggdrasil-description" ) }}</p>
             <a target="_blank" href="https://rex64.itch.io/ld48-30" rel="noopener" style="margin-right: 0.6em;">{{ ( index $.Site.Data.translations (string .Site.Language)).site }}</a>
         </div>
