@@ -8,6 +8,10 @@ draft: true
 
 {{< image src="IMG_1616.jpg" alt="This is a photo of a pizza" width="800" height="600">}}
 
+{{< tweet 1312658080291672069 >}}
+
+{{< tweet 1312595280433274881 >}}
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat lacus in diam molestie facilisis. Nulla facilisi. Pellentesque vitae urna suscipit, placerat enim sit amet, ullamcorper arcu. Maecenas pharetra in purus ac accumsan. Morbi eu volutpat ex, ac vestibulum mi. Praesent sit amet est lobortis nisi mollis aliquet. Proin suscipit, augue sed tincidunt maximus, diam nisl aliquet mi, sit amet feugiat magna tellus eu enim. Proin vestibulum semper augue, eu tristique magna varius ut. Vestibulum luctus lobortis sapien, quis volutpat risus pretium pharetra. Curabitur sem ligula, imperdiet in euismod vel, convallis in turpis. Nullam porta imperdiet nunc laoreet tempor. Ut congue id orci sit amet varius.
 
 {{< image src="IMG_1747.jpg" alt="This is a photo of a tapioca drink" width="600" height="800" >}}
