@@ -1,0 +1,36 @@
+article {
+    li {
+        margin-bottom: 1em;
+    }
+
+    blockquote {
+        background: #0000000d;
+        border-left: 10px solid $light-scheme-accent-color;
+        margin: 1.5em 10px;
+        padding: 0.5em 10px;
+    
+        @media (prefers-color-scheme: dark) {
+            background: #00000040;
+            border-left-color: $dark-scheme-accent-color;
+        }
+    
+    }
+
+    table {
+        border-collapse: collapse;
+        margin: 0 auto;
+        width: 64%;
+
+        th, td {
+            text-align: left;
+            padding: .75rem;
+            // border-bottom: 2px solid;
+        }
+
+        td {
+            text-align: left;
+            padding: .75rem;
+            border-top: 1px solid;
+        }
+    }
+}

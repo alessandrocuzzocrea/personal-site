@@ -13,6 +13,7 @@
             <h3>Loopy Boy</h3>
             <img src="loopy-boy-ld-47.png" width="220" height="80" alt="Loopy Boy project banner">
             <p>{{ ( index ( index $.Site.Data.translations (string .Site.Language)) "loopy-boy-description" ) }}</p>
+            <a href="{{ "/" | relURL }}ludum-dare-47/" style="margin-right: 0.6em;">{{ ( index $.Site.Data.translations (string .Site.Language)).article }}</a>
             <a target="_blank" href="https://rex64.itch.io/loopy-boy" rel="noopener" style="margin-right: 0.6em;">{{ ( index $.Site.Data.translations (string .Site.Language)).site }}</a>
             <a target="_blank" href="https://github.com/alessandrocuzzocrea/ld-47-stuck-in-a-loop" rel="noopener" style="margin-right: 0.6em;">GitHub</a>
         </div>
