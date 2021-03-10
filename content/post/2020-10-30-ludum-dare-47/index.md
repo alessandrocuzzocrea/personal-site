@@ -6,7 +6,6 @@ description: "My experience participating in the Ludum Dare 47 Game Jam and how 
 og_image: og_image.png
 og_image_width: 1200
 og_image_height: 1200
-draft: true
 ---
 
 ## Intro
