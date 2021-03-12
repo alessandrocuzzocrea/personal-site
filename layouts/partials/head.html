@@ -61,27 +61,8 @@
     {{ end }}
     {{ end }}
 
-    <!-- Structured Data -->
-    <script type="application/ld+json">
-        {
-            "@context": "http://schema.org/",
-            "@type": "Person",
-            "name": "Alessandro Cuzzocrea",
-            "familyName": "Cuzzocrea",
-            "givenName": "Alessandro",
-            "jobTitle": "Software Engineer",
-            "url": "http://alessandrocuzzocrea.com",
-            "image": "https://alessandrocuzzocrea.com/images/profile.jpg",
-            "sameAs": [
-                "https://github.com/alessandrocuzzocrea",
-                "https://twitter.com/alessacrea",
-                "https://www.instagram.com/alessacrea/",
-                "https://www.linkedin.com/in/alessandrocuzzocrea",
-                "http://facebook.com/alessandrocuzzocrea",
-                "https://www.pinterest.com/alessacrea/"
-            ]
-        }
-    </script>
+    {{ partial "structured_data.html" . }}
+    
 
     {{ with resources.Get "scss/main.scss" | toCSS | minify }}
         <style>{{ .Content | safeCSS }}</style>

@@ -1,0 +1,47 @@
+{{ "<!-- ENTERING partial seo-schema.html -->" | safeHTML }}
+{{ if .IsHome }}
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Alessandro Cuzzocrea",
+        "familyName": "Cuzzocrea",
+        "givenName": "Alessandro",
+        "jobTitle": "Software Engineer",
+        "url": "http://alessandrocuzzocrea.com",
+        "image": "https://alessandrocuzzocrea.com/images/profile.jpg",
+        "sameAs": [
+            "https://github.com/alessandrocuzzocrea",
+            "https://twitter.com/alessacrea",
+            "https://www.instagram.com/alessacrea/",
+            "https://www.linkedin.com/in/alessandrocuzzocrea",
+            "http://facebook.com/alessandrocuzzocrea",
+            "https://www.pinterest.com/alessacrea/"
+        ]
+    }
+</script>
+{{ else if eq .Type "post"}}
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "",
+        "image": "",  
+        "author": {
+          "@type": "",
+          "name": ""
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "",
+          "logo": {
+            "@type": "ImageObject",
+            "url": ""
+          }
+        },
+        "datePublished": ""
+      }
+</script>
+{{ end }}
+
+{{ "<!-- LEAVING partial seo-schema.html -->" | safeHTML }}
