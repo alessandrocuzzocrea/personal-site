@@ -62,7 +62,6 @@
     {{ end }}
 
     {{ partial "structured_data.html" . }}
-    
 
     {{ with resources.Get "scss/main.scss" | toCSS | minify }}
         <style>{{ .Content | safeCSS }}</style>
