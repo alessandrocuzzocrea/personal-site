@@ -21,25 +21,20 @@
     }
 </script>
 {{ else if eq .Type "post"}}
+{{- $path := .Permalink -}}
+{{- $file := .Params.og_image -}}
+{{- $imgUrl := print $path $file -}}
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "headline": "{{ .Title }}",
-        "image": "https://alessandrocuzzocrea.com/ludum-dare-47/og_image.png",  
+        "image": {{ $imgUrl }},  
         "author": {
           "@type": "Person",
           "name": "Alessandro Cuzzocrea"
-        },  
-        "publisher": {
-          "@type": "Organization",
-          "name": "Alessandro Cuzzocrea",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://d33wubrfki0l68.cloudfront.net/20adc4c72669a449c963238003018d8e0181fbf8/b73af/images/profile.jpg"
-          }
         },
-        "datePublished": "2021-03-12"
+        "datePublished": {{.Date.Format "2006-01-02"}}
       }
 </script>
 {{ end }}
