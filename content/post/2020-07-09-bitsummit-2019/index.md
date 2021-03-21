@@ -3,6 +3,9 @@ title: "BitSummit 2019: My Experience Participating in Japan's Largest Indie Gam
 slug: "bitsummit-2019"
 date: "2019-07-09"
 description: "The first time I heard about BitSummit was a few years ago when I was watching Branching Paths – an excellent documentary about Japan's indie game scene. Initially founded by James Mielke, an ex-game journalist turned game developer, BitSummit is all about giving a voice to the myriad of small indie game developers from Japan and beyond."
+og_image: og_image.jpg
+og_image_width: 1200
+og_image_height: 1200
 ---
 
 The first time I heard about BitSummit was a few years ago when I was watching Branching Paths – an excellent documentary about Japan's indie game scene. Initially founded by James Mielke, an ex-game journalist turned game developer, BitSummit is all about giving a voice to the myriad of small indie game developers from Japan and beyond. 
