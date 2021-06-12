@@ -23,6 +23,7 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm"]
   authorGithub = "alessandrocuzzocrea"
   authorLinkedin = "alessandrocuzzocrea"
   twitter = "alessacrea"
+  youtube = "UC9s3CL1S-O-8Vhm222GeoYw"
   projects = "Projects"
 
 [languages]
